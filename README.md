@@ -48,7 +48,7 @@ Instituto Centro Paula Souza <strong> Etec de Praia Grande - Extensão </strong>
 
 ### Gerais
 * Lógica de Programação.
-* Inglês Nível <strong> (B1) </strong>.
+* Inglês Nível <strong> (A2) </strong>.
 
 ### Sistemas Operacionais
 * Windows
