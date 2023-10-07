@@ -1,10 +1,10 @@
-<h1> Guilherme Botingnon </h1>
+\<h1> Guilherme Botingnon </h1>
 <strong> Buscando a oportunidade para ser Desenvolvedor Web  / FullStack. <br> </strong>
 <hr>
 🏠 Praia Grande / SP <br>
 📱  <a href="https://api.whatsapp.com/send?phone=5513997244489">(13) 99724-4489</a> <br>
 ✉️  <a href="mailto:guilherme.botingnon@gmail.com">guilherme.botingnon@gmail.com</a> <br>
-Meu nome é Guilherme Botingnon, sou Desenvolvedor Web apaixonado por PHP e HTML, com grande interesse em Javascript e Bootstrap. Tenho como hobbies Jogar, Ler e Desenvolver Protótipos de sites utilizando o Figma e os passar para WordPress.
+Meu nome é Guilherme Botingnon, Estudo para me tornar Desenvolvedor Web,  apaixonado por PHP e HTML, com grande interesse em Javascript e Bootstrap. Tenho como hobbies Jogar, Ler e Desenvolver Protótipos de sites utilizando o Figma e os passar para WordPress.
 <strong> Determinado a aprender mais e mais </strong>
 
 ## Formação
