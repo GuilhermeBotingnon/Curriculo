@@ -1,5 +1,5 @@
 <h1> Guilherme Botingnon </h1>
-<strong> Desenvolvedor Web - Junior / Front-end e Back-end. <br> </strong>
+<strong> Buscando a oportunidade para ser Desenvolvedor Web  / FullStack. <br> </strong>
 <hr>
 🏠 Praia Grande / SP <br>
 📱  <a href="https://api.whatsapp.com/send?phone=5513997244489">(13) 99724-4489</a> <br>
