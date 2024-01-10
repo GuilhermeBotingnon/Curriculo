@@ -1,4 +1,4 @@
-\<h1> Guilherme Botingnon </h1>
+<h1> Guilherme Botingnon </h1>
 <strong> Buscando a oportunidade para ser Desenvolvedor Web  / FullStack. <br> </strong>
 <hr>
 🏠 Praia Grande / SP <br>
