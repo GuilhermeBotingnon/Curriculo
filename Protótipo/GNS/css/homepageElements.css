@@ -1,0 +1,205 @@
+/* Whatsapp & Instagram */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Aba Contato */
+.contact-content #map {
+    border-radius: 20px;
+    margin-bottom: 60px;
+  }
+  
+  .contact-content .item {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 30px;
+    background-color: #fff;
+  }
+  
+  .contact-content .phone {
+    margin-right: 15px;
+  }
+  
+  .contact-content .email {
+    margin-left: 15px;
+  }
+  
+  .contact-content .item img {
+    float: left;
+    margin-right: 25px;
+    vertical-align: middle;
+  }
+  
+  .contact-content .item h6 {
+    font-size: 20px;
+    font-weight: 600;
+    vertical-align: middle;
+  }
+  
+  .contact-content .item h6 span {
+    font-size: 15px;
+    color: #aaaaaa;
+    font-weight: 400;
+  }
+  
+  .contact-content #contact-form {
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 30px;
+    background-color: #fff;
+  }
+  
+  .contact-content #contact-form label {
+    font-size: 15px;
+    color: #3a3a3a;
+    margin-bottom: 15px;
+  }
+  
+  .contact-content #contact-form input {
+    width: 100%;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #f6f6f6;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding: 0px 15px;
+  }
+  
+  .contact-content #contact-form textarea {
+    width: 100%;
+    height: 150px;
+    max-height: 180px;
+    border-radius: 22px;
+    background-color: #f6f6f6;
+    border: none;
+    margin-bottom: 40px;
+    font-size: 14px;
+    padding: 15px 15px;
+  }
+  
+  .contact-content #contact-form button {
+    background-color: #1e1e1e;
+    height: 44px;
+    border-radius: 22px;
+    padding: 0px 20px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.5s;
+  }
+  
+  .contact-content #contact-form button:hover {
+    background-color: blue;
+  }
+
+  /* Testemunials - Feedbacks */
+
+  .carouselzinho img {
+    width: 100%;
+    height: 100%;
+  }
+  .carouselzinho body {
+    background-color: deepskyblue;
+    position: relative;
+    margin: 20px 30px;
+    font-family: montserrat;
+  }
+  .carouselzinho .container {
+    max-width: 850px;
+    background-color: white;
+    padding: 0;
+    border-radius: 30px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  }
+  .carouselzinho .img-area {
+    width: 200px;
+    height: 200px;
+    margin: 20% auto;
+    border-radius: 90%;
+    overflow: hidden;
+    border: 5px solid #101010;
+  }
+  .carouselzinho .review {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 0;
+  }
+  .carouselzinho .person {
+    font-size: 20px;
+    font-weight: 500;
+    color: #101010;
+    margin: 0;
+  }
+  .carouselzinho .designation {
+    color: #101010;
+    font-size: 14px;
+  }
+  .carouselzinho .carousel-inner {
+    max-width: 800px;
+  }
+  .carouselzinho .carousel-indicators {
+    bottom: -40px;
+    right: 0;
+    margin: 0;
+  }
+  
+  .carouselzinho .carousel-indicators [data-bs-target] {
+    height: 15px;
+    border: 2px solid #000;
+    width: 15px;
+    background-color: inherit;
+    border-radius: 50%;
+  }
+  .carouselzinho .carousel-indicators .active {
+    border: 2px solid transparent;
+    background-color: #000;
+  }
+  .carouselzinho .left {
+    color: #FFF;
+    font-weight: 900;
+  }
+  .carouselzinho .right {
+    color: #FFF;
+    font-weight: 900;
+  }
+  .carouselzinho .carousel-control-next,
+  .carousel-control-prev {
+    position: relative;
+  }
+  @media (max-width: 560px) {
+    .carouselzinho .img-area {
+      margin: 18% auto 0;
+    }
+    .carouselzinho .img-text {
+      text-align: center;
+    }
+    .carouselzinho .review {
+      font-size: 14px;
+      font-weight: 600;
+      margin: 5px 0;
+    }
+    .carouselzinho .person {
+      font-size: 13px;
+    }
+    .carouselzinho .designation {
+      font-size: 10px;
+    }
+    .carouselzinho .right {
+      font-size: 12px;
+    }
+    .carouselzinho .left {
+      font-size: 12px;
+    }
+    .carouselzinho .carousel-indicators [data-bs-target] {
+      height: 8px;
+      border: 1px solid #000;
+      width: 8px;
+      background-color: inherit;
+      border-radius: 50%;
+    }
+    .carouselzinho .carousel-indicators .active {
+      border: 1px solid transparent;
+      background-color: #000;
+    }
+  }
