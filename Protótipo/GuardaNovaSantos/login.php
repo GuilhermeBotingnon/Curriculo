@@ -48,7 +48,7 @@ if ($_POST){
                 header("Location: consultar.html");
                  
            } else {
-            echo $error_login = "Email ou a senha estão incorretos";
+            echo $error_login = "Email ou senha errado patrão";
            }
             }
      }
@@ -73,17 +73,17 @@ if ($_POST){
         <img src="favicon/Logo.svg" alt="Logo GNS" class="img-fluid logo">
       </div>
       <div class="col-md-5">
-        <form action="" method="POST">
+        <form action="" method="post">
           <div class="mb-3">
             <label for="username" class="form-label">Nome de usuário</label>
-            <input type="text" name="email" class="form-control caixa py-3" id="username" placeholder="Exemplo@exemplo.com" required>
+            <input type="text" name="email" class="form-control caixa py-3" placeholder="Exemplo@exemplo.com" required>
             <?php if (!empty($error_email)) : ?>
     <div class="error"><?php echo $error_email; ?></div>
 <?php endif; ?>
           </div>
           <div class="mb-3">
             <label for="password" class="form-label">Senha</label>
-            <input type="password" name="senha" class="form-control caixa py-3" id="password" placeholder="Digite sua senha" required>
+            <input type="password" name="senha" class="form-control caixa py-3" placeholder="Digite sua senha" required>
             <?php if (!empty($error_senha)) : ?>
     <div class="error"><?php echo $error_senha; ?></div>
 <?php endif; ?>
