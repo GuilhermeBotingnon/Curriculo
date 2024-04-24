@@ -3,9 +3,9 @@ include('conexao.php');
 if ($_POST){
 if(isset($_POST['email']) || isset($_POST['senha'])) {
   if(strlen($_POST['email']) == 0 ) {
-
+    echo $error_email = "preencha seu email";
   } else if (strlen($_POST['senha']) == 0) {
-
+    echo $error_senha = "Preencha sua senha";
   } else {
 
     $email = $mysqli->real_escape_string($_POST['email']);
@@ -25,7 +25,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
       $_SESSION['id'] = $usuario['id'];
       header("location: consulta.html");
     } else {
-      echo $error_email = "Falha ao logar! E-mail ou senha incorretos";
+      echo $error_login = "Email ou senha errado patrão";
     }
   }
 }
@@ -72,15 +72,23 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
           <div class="mb-3">
             <label for="email" class="form-label">Email</label>
             <input type="text" name="email"class="form-control caixa py-3" placeholder="Exemplo@exemplo.com" required>
+            <?php if (!empty($error_email)) : ?>
+    <div class="error"><?php echo $error_email; ?></div>
+<?php endif; ?>
           </div>
           <div class="mb-3">
             <label for="senha" class="form-label">Senha</label>
             <input type="password" name="senha" class="form-control caixa py-3" placeholder="Digite sua senha" required>
+            <?php if (!empty($error_senha)) : ?>
+    <div class="error"><?php echo $error_senha; ?></div>
+<?php endif; ?>
           </div>
           <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="remember">
             <label class="form-check-label caixa" for="remember">Lembrar da senha</label>
-            <div class="error"><?php echo $error_email; ?></div>
+            <?php if (!empty($error_login)) : ?>
+    <div class="error"><?php echo $error_login; ?></div>
+<?php endif; ?>
           </div>
           <button type="submit" name="enviar" class="btn text-decoration-none px-4 py-2 bg-white rounded-3 fs-4 fw-bold">Entrar</button>
         </form>

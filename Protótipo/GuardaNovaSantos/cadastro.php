@@ -1,22 +1,4 @@
-<!doctype html>
-<html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Gns - Cadastro</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css\stylecadastros.css"> 
-    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
-    <script src="js/script.js"></script>
- 
-    <style>
-  .txtsucesso{
- color: yellow;
- font-size: 1em;
- font-weight: 450;
-  }
-</style>
-  <?php
+<?php
 $txt ='';
 
 
@@ -81,86 +63,130 @@ $conn = null;
 }
 
 ?>
-  
-  </head>
-  <body>
-    <header id="header" class="header fixed-top" data-scrollto-offset="0">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark gnsNavCor">
-            
-                <a href="consultar.html"
-                class="text-decoration-none px-2 py-3 bg-white rounded-3"
-                style="color:#022873; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700; margin-left: 10em; "
-                >Voltar</a>
-                <div class="container-fluid d-flex justify-content-center align-items-center">
-                <h1 class="text-white d-flex align-items-center justify-content-center" style="font-family: Poppins; font-size: 40px; margin-right: 7em;"> Cadastro</h1>
-                </div>  
-        </nav>
-        </header>
-   <main class="tudo">
-   <div class="container-fluid d-flex justify-content-center align-items-center">
-    <img src="favicon/Logo.svg" class="img-fluid logogns">
-   </div>
-   <form action="#" method="POST" class="tudotudo">
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Gns - Cadastro </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous" async></script>
+    <link rel="stylesheet" href="/css/cadastro.css">
+    <link href="/css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
+    <script src="js/script.js"></script>
+</head>
+<!-- class=" navbar-brand text-decoration-none px-2 py-3 bg-white rounded-3"
+           style="color:#022873; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700; margin-left: 10em; " -->
+<body>
+  <style>
+    .txtsucesso{
+   color: yellow;
+   font-size: 1em;
+   font-weight: 450;
+    }
+  </style>
+
+  <nav class="navbar fixed-top gnsCor">
+      <div class="container">
+        <a class="navbar-brand" href="consulta.php">
+          <button 
+          class="btn text-decoration-none px-3 py-3 bg-white rounded-3 fs-4 fw-bold"
+          style="color: #022873; font-family: Poppins;"
+          > Voltar </button>
+        </a>
+      </div>
+  </nav>
+
+<main class="cor" style="font-family: Poppins;">
+  <form method="post">
+  <div class="container d-flex align-items-center justify-content-center vh-100">
+    <div class="row fs-1">
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="matricula" class="form-label caixa fs-2">Nº de Matrícula</label>
+        <input type="text" class="form-control py-3 fs-4" name ="matricula" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">Nome</label>
+        <input type="text" class="form-control py-3 fs-4" name="nome" id="" placeholder="Nome" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">nascimento</label>
+        <input type="date" class="form-control py-3 fs-4" name="nascimento" id="" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">nacionalidade</label>
+        <input type="text" class="form-control py-3 fs-4" name="nacionalidade" id="" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">UF</label>
+        <input type="text" class="form-control py-3 fs-4" name="uf" id="" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">estadocivil</label>
+        <select class="form-select py-3 fs-4" name="estadocivil" id="floatingSelectGrid">
+          <option selected>EstadoCivil</option>
+          <option value="1">Solteiro</option>
+          <option value="2">Casado</option>
+          <option value="3">Outro</option>
+        </select>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">cpf</label>
+        <input type="number" class="form-control py-3 fs-4" name="cpf" id="" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">rg</label>
+        <input type="number" class="form-control py-3 fs-4" name="rg" id="" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">Orgão Emissor</label>
+        <input type="text" class="form-control py-3 fs-4" name="orgao" id="" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">CEP</label>
+        <input type="text" class="form-control py-3 fs-4" onblur="pesquisacep(this.value);" size="10" maxlength="9"  name="cep" id="cep" placeholder="CEP" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">Numero</label>
+        <input type="number" class="form-control py-3 fs-4" name="numero" id="" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">Bairro</label>
+        <input type="text" class="form-control py-3 fs-4" name="bairro" id="" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">Cidade</label>
+        <input type="text" class="form-control py-3 fs-4" name="cidade" id="" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">Complemento</label>
+        <input type="text" class="form-control py-3 fs-4" name="complemento" id="" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">Rua</label>
+        <input type="text" class="form-control py-3 fs-4" name="rua" id="" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">Email</label>
+        <input type="text" class="form-control py-3 fs-4" name="email" id="" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">Celular</label>
+        <input type="text" class="form-control py-3 fs-4" name="celular" id="" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">experiencia Profissional</label>
+        <textarea class="form-control caixa2 custom-margin" name="experiencia" placeholder="Expêriencia Profissional"> </textarea>
+      </div>
+    </div>
+    <button type="submit" name="enviar" class="btn text-decoration-none px-4 py-2 bg-white rounded-3 fs-4 fw-bold">Enviar</button>
     <div class="container-fluid d-flex justify-content-center align-items-center">
-          <div class="row align-items-center justify-content-center">
-           <div class="col-md-6">   
-            <h2 class="texto">Nº de Matrícula</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name ="matricula" id="exampleInputEmail1" placeholder="matrícula" required>
-            <h2 class="texto ">Nome</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="nome" id="exampleInputEmail1" placeholder="Nome" required>
-            <h2 class="texto ">Data de Nascimento</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="nascimento" id="exampleInputEmail1" placeholder="Data de Nascimento" required>
-            <h2 class="texto">Nacionalidade</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="nacionalidade" id="exampleInputEmail1" placeholder="Nacionalidade" required>
-            <h2 class="texto ">UF</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="uf" id="exampleInputEmail1" placeholder="UF" required>
-            <h2 class="texto ">Estado Civil</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="estadocivil" id="exampleInputEmail1" placeholder="Estado Civil" required>
-            <h2 class="texto ">CPF</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="cpf" id="exampleInputEmail1" placeholder="CPF" required>
-            <h2 class="texto">RG</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="rg" id="exampleInputEmail1" placeholder="RG" required>
-            <h2 class="texto ">Órgão Expedidor</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="orgao" id="exampleInputEmail1" placeholder="Órgão Expedidor" required>
-            <h2 class="texto ">Formação Acadêmica</h2>
-            <textarea class="form-control caixa1 custom-margin" name="formacao" placeholder="Formação Acadêmica"> </textarea>
-           </div>
-         
-            <div class="col-md-6">
-                 
-            <h2 class="texto">CEP</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" onblur="pesquisacep(this.value);" size="10" maxlength="9"  name="cep" id="cep" placeholder="CEP" required>
-            <h2 class="texto ">Número </h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="numero" id="numero" placeholder="Número">
-            <h2 class="texto ">Bairro</h2> 
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="bairro"id="bairro" placeholder="Bairro">
-            <h2 class="texto">Cidade</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="cidade" id="cidade" placeholder="Cidade">
-            <h2 class="texto ">Complemento</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="complemento" id="exampleInputEmail1" placeholder="Complemento" required>
-            <h2 class="texto ">Rua</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="rua" id="rua" placeholder="Rua" required>
-            <h2 class="texto">Email</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="email" id="exampleInputEmail1" placeholder="Email" required>
-            <h2 class="texto ">Telefone Celular</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="celular" id="exampleInputEmail1" placeholder="Telefone Celular" required>
-            <h2 class="texto ">Profissão</h2>
-            <input type="text mb-3 " class="form-control-lg caixa custom-margin" name="profissao" id="exampleInputEmail1" placeholder="Profissão" required>
-            <h2 class="texto ">Experiência Profissional</h2>
-            <textarea class="form-control caixa2 custom-margin" name="experiencia" placeholder="Expêriencia Profissional"> </textarea>            
-            </div>
-        </div> 
-      </div> 
-      <div class="container-fluid d-flex justify-content-center align-items-center text-center">
-      
-          <button type="submit" class="btn btn-primary botao col-5">Enviar</button>
-         </div>
-  </form>
-  <div class="container-fluid d-flex justify-content-center align-items-center">
-  <p class="txtsucesso"> <?php echo $txt; ?></p>
+      <p class="txtsucesso"> <?php echo $txt; ?></p>
+      </div>
   </div>
-</main>    
-<footer>
-</footer>
-    </body>
+</form>
+</main>
+</body>
 </html>
