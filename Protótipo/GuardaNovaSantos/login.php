@@ -1,40 +1,39 @@
-<?php
+<?php session_start()?>
+<?php 
+include('conexao.php');
 
-// Iniciar sessão
-session_start();
-
-// conexao banco
-include("conexao.php")
-
-// Verificar se o formulário de login foi enviado
-(isset($_POST['email']) && isset($_POST['senha'])); {
-
-  // Receber dados do formulário
-  $login = mysqli_real_escape_string($conn, $_POST['email']);
-  $senha = mysqli_real_escape_string($conn, $_POST['senha']);
-
-  // Consultar o banco de dados para verificar as credenciais do usuário
-  $sql = "SELECT * FROM usuarios WHERE login = '$login' AND senha = MD5('$senha')";
-  $result = mysqli_query($conn, $sql);
-
-  // Verificar se o usuário foi encontrado
-  if (mysqli_num_rows($result) > 0) {
-    // Armazenar informações do usuário na sessão
-    $usuario = mysqli_fetch_assoc($result);
-    $_SESSION['usuario_id'] = $usuario['id'];
-    $_SESSION['usuario_nome'] = $usuario['email'];
-    $_SESSION['usuario_login'] = $usuario['senha'];
-
-    // Redirecionar para a página inicial
-    header("Location: index.php");
-    exit();
+if(isset($_POST['email']) || isset($_POST['senha'])) {
+  if(strlen($_POST['email']) == 0 ) {
+    echo "Preencha seu e-mail";
+  } else if (strlen($_POST['senha']) == 0) {
+    echo "Preencha sua senha";
   } else {
-    // Erro de login
-    $erro_login = "Login ou senha inválidos.";
+
+    $email = $mysqli->real_escape_string($_POST['email']);
+    $senha = $mysqli->real_escape_string($_POST['senha']);
+
+    $sql_code = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";
+    $sql_query = $mysqli->query($sql_code) or die("Falha na execução do código SQL: " . $mysqli->error);
+
+    $quantidade = $sql_query->num_rows;
+
+    if($quantidade == 1) {
+      $usuario = $sql_query->fetch_assoc();
+
+      if(!isset($_SESSION)) {
+        session_start();
+      }
+      
+      $_SESSION['id'] = $usuario['id'];
+      $_SESSION['email'] = $usuario['email'];
+
+      header("location: consultar.html");
+
+    } else {
+      echo "Falha ao logar! E-mail ou senha incorretos";
+    }
   }
 }
-?>
-
 ?>
 <!doctype html>
 <html lang="pt-br">
@@ -49,9 +48,6 @@ include("conexao.php")
     <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
 </head>
 <body>
-<?php if (isset($erro_login)): ?>
-    <p style="color: red;"><?php echo $erro_login; ?></p>
-  <?php endif; ?>
   <nav class="navbar fixed-top gnsCor">
       <div class="container">
         <a class="navbar-brand" href="index.php">
@@ -72,17 +68,17 @@ include("conexao.php")
         <form method="post">
           <div class="mb-3">
             <label for="email" class="form-label">Email</label>
-            <input type="text" name="email" id="email" class="form-control caixa py-3" placeholder="Exemplo@exemplo.com" required>
+            <input type="text" name="email"class="form-control caixa py-3" placeholder="Exemplo@exemplo.com" required>
           </div>
           <div class="mb-3">
             <label for="senha" class="form-label">Senha</label>
-            <input type="password" name="senha" id="senha" class="form-control caixa py-3" placeholder="Digite sua senha" required>
+            <input type="password" name="senha" class="form-control caixa py-3" placeholder="Digite sua senha" required>
           </div>
           <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="remember">
             <label class="form-check-label caixa" for="remember">Lembrar da senha</label>
           </div>
-          <button type="submit" class="btn text-decoration-none px-4 py-2 bg-white rounded-3 fs-4 fw-bold">Entrar</button>
+          <button type="submit" name="enviar" class="btn text-decoration-none px-4 py-2 bg-white rounded-3 fs-4 fw-bold">Entrar</button>
         </form>
       </div>
     </div>
