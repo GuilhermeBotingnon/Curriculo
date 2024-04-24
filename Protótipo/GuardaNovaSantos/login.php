@@ -57,7 +57,7 @@ if ($_POST){
 <body>
   <nav class="navbar fixed-top gnsCor">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.php">
           <button 
           class="btn text-decoration-none px-2 py-3 bg-white rounded-3 fs-4 fw-bold"
           style="color: #022873; font-family: Poppins;"
@@ -73,7 +73,7 @@ if ($_POST){
         <img src="favicon/Logo.svg" alt="Logo GNS" class="img-fluid logo">
       </div>
       <div class="col-md-5">
-        <form action="consultar.html" method="post">
+        <form action="" method="post">
           <div class="mb-3">
             <label for="username" class="form-label">Nome de usuário</label>
             <input type="text" name="email" class="form-control caixa py-3" placeholder="Exemplo@exemplo.com" required>
