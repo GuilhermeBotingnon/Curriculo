@@ -11,8 +11,8 @@
     <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
     <style>
 .error {
-    color:yellow; /* Cor vermelha do Bootstrap */
-    font-size: 2em;
+    color:yellow;
+    font-size: 1em;
     font-weight: 500;
 }
 </style>
@@ -48,7 +48,7 @@ if ($_POST){
                 header("Location: consultar.html");
                  
            } else {
-            echo $error_login = "Email ou senha errado patrão";
+            echo $error_login = "Email ou senha incorreto";
            }
             }
      }
