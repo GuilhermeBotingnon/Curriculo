@@ -99,7 +99,7 @@ $conn = null;
       </div>
   </nav>
 
-<main class="cor secaoCadastro py-5" style="font-family: Poppins; padding-top:30px;">
+<main class="cor secaoCadastro py-5" style="font-family: Poppins; padding-top:120px;">
   <form method="post">
   <div class="container d-flex align-items-center justify-content-center vh-100">
     <div class="row">
