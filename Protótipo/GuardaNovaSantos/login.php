@@ -1,11 +1,11 @@
 <?php 
 include('conexao.php');
-
+if ($_POST){
 if(isset($_POST['email']) || isset($_POST['senha'])) {
   if(strlen($_POST['email']) == 0 ) {
-    echo $error_email;
+
   } else if (strlen($_POST['senha']) == 0) {
-    echo $error_email;
+
   } else {
 
     $email = $mysqli->real_escape_string($_POST['email']);
@@ -28,6 +28,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
       echo $error_email = "Falha ao logar! E-mail ou senha incorretos";
     }
   }
+}
 }
 ?>
 <!doctype html>
