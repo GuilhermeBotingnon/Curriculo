@@ -465,12 +465,6 @@
         </button>
       </a>
     </div>
-
-    <!-- Copyright -->
-    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2023 Copyright:
-      <a class="text-white" href="">Guarda Nova Santos</a>
-    </div>
     <!-- Copyright -->
     <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       Feito por:

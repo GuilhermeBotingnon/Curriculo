@@ -25,7 +25,7 @@ $_POST['profissao'],
 $_POST['experiencia']
   );
  
-  include_once("conexao.php");
+  include_once('conexao.php');
 
   try{
 
@@ -104,20 +104,12 @@ $conn = null;
   <div class="container d-flex align-items-center justify-content-center vh-100">
     <div class="row">
       <div class="col-md-6 col-sm-3 my-3">
-        <label for="matricula" class="form-label caixa fs-2">Nº de Matrícula</label>
-        <input type="text" class="form-control py-3 fs-4" name ="matricula" placeholder="Texto Exemplo" required>
-      </div>
-      <div class="col-md-6 col-sm-3 my-3">
         <label for="username" class="form-label caixa fs-2">Nome</label>
         <input type="text" class="form-control py-3 fs-4" name="nome" id="" placeholder="Nome" required>
       </div>
       <div class="col-md-6 col-sm-3 my-3">
-        <label for="username" class="form-label caixa fs-2">nascimento</label>
+        <label for="username" class="form-label caixa fs-2">Data de nascimento</label>
         <input type="date" class="form-control py-3 fs-4" name="nascimento" id="" placeholder="Texto Exemplo" required>
-      </div>
-      <div class="col-md-6 col-sm-3 my-3">
-        <label for="username" class="form-label caixa fs-2">nacionalidade</label>
-        <input type="text" class="form-control py-3 fs-4" name="nacionalidade" id="" placeholder="Texto Exemplo" required>
       </div>
       <div class="col-md-6 col-sm-3 my-3">
         <label for="username" class="form-label caixa fs-2">UF</label>
@@ -126,23 +118,10 @@ $conn = null;
       <div class="col-md-6 col-sm-3 my-3">
         <label for="username" class="form-label caixa fs-2">estadocivil</label>
         <select class="form-select py-3 fs-4" name="estadocivil" id="floatingSelectGrid">
-          <option selected>EstadoCivil</option>
-          <option value="1">Solteiro</option>
+          <option selected>Solteiro</option>
           <option value="2">Casado</option>
           <option value="3">Outro</option>
         </select>
-      </div>
-      <div class="col-md-6 col-sm-3 my-3">
-        <label for="username" class="form-label caixa fs-2">cpf</label>
-        <input type="number" class="form-control py-3 fs-4" name="cpf" id="" placeholder="Texto Exemplo" required>
-      </div>
-      <div class="col-md-6 col-sm-3 my-3">
-        <label for="username" class="form-label caixa fs-2">rg</label>
-        <input type="number" class="form-control py-3 fs-4" name="rg" id="" placeholder="Texto Exemplo" required>
-      </div>
-      <div class="col-md-6 col-sm-3 my-3">
-        <label for="username" class="form-label caixa fs-2">Orgão Emissor</label>
-        <input type="text" class="form-control py-3 fs-4" name="orgao" id="" placeholder="Texto Exemplo" required>
       </div>
       <div class="col-md-6 col-sm-3 my-3">
         <label for="username" class="form-label caixa fs-2">CEP</label>
