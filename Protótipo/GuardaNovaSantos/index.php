@@ -472,6 +472,10 @@
       <a class="text-white" href="">Guarda Nova Santos</a>
     </div>
     <!-- Copyright -->
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      Feito por:
+      <a class="text-white" href="https://github.com/GuilhermeBotingnon/Curriculo">Guilherme Botingnon</a>
+    </div>
   </footer>
 </body>
 
