@@ -23,7 +23,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
         session_start();
       }
       $_SESSION['id'] = $usuario['id'];
-      header("location: consulta.php");
+      header("location: consulta.html");
     } else {
       echo "Falha ao logar! E-mail ou senha incorretos";
     }
