@@ -73,7 +73,7 @@ $conn = null;
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous" async></script>
     <link rel="stylesheet" href="/css/cadastro.css">
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/cadastro.css" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
     <script src="js/script.js"></script>
 </head>
@@ -102,7 +102,7 @@ $conn = null;
 <main class="cor" style="font-family: Poppins;">
   <form method="post">
   <div class="container d-flex align-items-center justify-content-center vh-100">
-    <div class="row fs-1">
+    <div class="row">
       <div class="col-md-6 col-sm-3 my-3">
         <label for="matricula" class="form-label caixa fs-2">Nº de Matrícula</label>
         <input type="text" class="form-control py-3 fs-4" name ="matricula" placeholder="Texto Exemplo" required>
@@ -150,15 +150,15 @@ $conn = null;
       </div>
       <div class="col-md-6 col-sm-3 my-3">
         <label for="username" class="form-label caixa fs-2">Numero</label>
-        <input type="number" class="form-control py-3 fs-4" name="numero" id="" placeholder="Texto Exemplo" required>
+        <input type="number" class="form-control py-3 fs-4" name="numero" id="numero" placeholder="Texto Exemplo" required>
       </div>
       <div class="col-md-6 col-sm-3 my-3">
         <label for="username" class="form-label caixa fs-2">Bairro</label>
-        <input type="text" class="form-control py-3 fs-4" name="bairro" id="" placeholder="Texto Exemplo" required>
+        <input type="text" class="form-control py-3 fs-4" name="bairro" id="bairro" placeholder="Texto Exemplo" required>
       </div>
       <div class="col-md-6 col-sm-3 my-3">
         <label for="username" class="form-label caixa fs-2">Cidade</label>
-        <input type="text" class="form-control py-3 fs-4" name="cidade" id="" placeholder="Texto Exemplo" required>
+        <input type="text" class="form-control py-3 fs-4" name="cidade" id="cidade" placeholder="Texto Exemplo" required>
       </div>
       <div class="col-md-6 col-sm-3 my-3">
         <label for="username" class="form-label caixa fs-2">Complemento</label>
@@ -166,7 +166,7 @@ $conn = null;
       </div>
       <div class="col-md-6 col-sm-3 my-3">
         <label for="username" class="form-label caixa fs-2">Rua</label>
-        <input type="text" class="form-control py-3 fs-4" name="rua" id="" placeholder="Texto Exemplo" required>
+        <input type="text" class="form-control py-3 fs-4" name="rua" id="rua" placeholder="Texto Exemplo" required>
       </div>
       <div class="col-md-6 col-sm-3 my-3">
         <label for="username" class="form-label caixa fs-2">Email</label>

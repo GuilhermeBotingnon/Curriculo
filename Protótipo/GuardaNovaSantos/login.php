@@ -23,9 +23,9 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
         session_start();
       }
       $_SESSION['id'] = $usuario['id'];
-      header("location: consulta.html");
+      header("location: consulta.php");
     } else {
-      echo $error_login = "Email ou senha errado patrão";
+      echo $error_login = "Email ou senha Incorreta.";
     }
   }
 }
