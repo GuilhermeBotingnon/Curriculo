@@ -7,7 +7,7 @@ session_start();
 include("conexao.php")
 
 // Verificar se o formulário de login foi enviado
-if (isset($_POST['email']) && isset($_POST['senha'])) {
+(isset($_POST['email']) && isset($_POST['senha'])); {
 
   // Receber dados do formulário
   $login = mysqli_real_escape_string($conn, $_POST['email']);
