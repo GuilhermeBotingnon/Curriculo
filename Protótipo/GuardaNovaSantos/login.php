@@ -24,7 +24,7 @@ if ($_POST){
                 $_SESSION['id'] = $usuario['id'];
                 $_SESSION['email'] = $usuario ['email'];
                 
-                header('location: consultar.php');
+                header('location: consultar.html');
                  
            } else {
             echo $error_login = "Email ou Senha incorreto";
