@@ -1,4 +1,3 @@
-<?php session_start()?>
 <?php 
 include('conexao.php');
 
@@ -25,9 +24,9 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
       }
       
       $_SESSION['id'] = $usuario['id'];
-      $_SESSION['email'] = $usuario['email'];
+      $_SESSION['nome'] = $usuario['nome'];
 
-      header("location: consultar.html");
+      header("location: painel.php");
 
     } else {
       echo "Falha ao logar! E-mail ou senha incorretos";
