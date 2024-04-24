@@ -10,3 +10,4 @@ $mysqli = new mysqli($host, $usuario , $senha , $database);
 if ($mysqli ->error){
     die("Erro ao Conectar com o DB :" . $mysqli ->error);
 } 
+?>

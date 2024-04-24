@@ -1,13 +1,13 @@
 <?php
 
 $usuario = 'root';
-$senha ='usbw';
-$database ='login';
-$host = 'localhost:3307';
+$senha ='AkKZrzFWqfCSJfAdkZjCBuRwEBBKmBIF';
+$database ='railway';
+$host = 'roundhouse.proxy.rlwy.net:31956';
 
-$mysqli = new mysqli($host,$usuario,$senha,$database);
+$mysqli = new mysqli($host, $usuario , $senha , $database);
 
-if($mysqli->error){
-    die("Erro a se Conectar :" . $mysqli->error);
-}
+if ($mysqli ->error){
+    die("Erro ao Conectar com o DB :" . $mysqli ->error);
+} 
 ?>

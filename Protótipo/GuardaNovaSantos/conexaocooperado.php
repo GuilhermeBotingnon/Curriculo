@@ -1,14 +1,13 @@
 <?php
 
 $usuario = 'root';
-$senha ='usbw';
-$database ='cooperado';
-$host = 'localhost:3307';
+$senha ='AkKZrzFWqfCSJfAdkZjCBuRwEBBKmBIF';
+$database ='railway';
+$host = 'roundhouse.proxy.rlwy.net:31956';
 
-try{
-    $conn = new PDO("mysql:host=$host;dbname=cooperado",$usuario,$senha);
+$mysqli = new mysqli($host, $usuario , $senha , $database);
 
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch(PDOException $e) {
-}
-    ?>
+if ($mysqli ->error){
+    die("Erro ao Conectar com o DB :" . $mysqli ->error);
+} 
+?>
