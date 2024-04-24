@@ -1,3 +1,40 @@
+<?php
+
+include("conexaologin.php");
+
+if ($_POST){
+
+     if (strlen($_POST['email'])== 0) {
+      echo $error_email = "preencha seu email";
+      } else if (strlen($_POST["senha"])== 0){
+          echo $error_senha = "Preencha sua senha";
+        } else {
+            $email = $mysqli-> real_escape_string($_POST["email"]);
+            $senha = $mysqli->real_escape_string($_POST["senha"]);
+            
+            $sql_code = "SELECT * FROM usuario WHERE email = '$email' AND senha = '$senha'";
+            $sql_query = $mysqli->query($sql_code) or die("Falha na execução do codigo sql; " . $mysqli->error); 
+             
+           $quantidade = $sql_query->num_rows;
+           
+           if($quantidade == 1){
+                $usuario = $sql_query->fetch_assoc();
+
+                if(!isset($_SESSION)){
+                  session_start();
+                }
+
+                $_SESSION['id'] = $usuario['id'];
+                $_SESSION['email'] = $usuario ['email'];
+                
+                header("Location: consultar.html");
+                 
+           } else {
+            echo $error_login = "Email ou a senha estão incorretos";
+           }
+            }
+     }
+     ?>
 <!doctype html>
 <html lang="pt-br">
   <head>
@@ -66,40 +103,3 @@
 </main>
 </body>
 </html>
-<?php
-
-include("conexaologin.php");
-
-if ($_POST){
-
-     if (strlen($_POST['email'])== 0) {
-      echo $error_email = "preencha seu email";
-      } else if (strlen($_POST["senha"])== 0){
-          echo $error_senha = "Preencha sua senha";
-        } else {
-            $email = $mysqli-> real_escape_string($_POST["email"]);
-            $senha = $mysqli->real_escape_string($_POST["senha"]);
-            
-            $sql_code = "SELECT * FROM usuario WHERE email = '$email' AND senha = '$senha'";
-            $sql_query = $mysqli->query($sql_code) or die("Falha na execução do codigo sql; " . $mysqli->error); 
-             
-           $quantidade = $sql_query->num_rows;
-           
-           if($quantidade == 1){
-                $usuario = $sql_query->fetch_assoc();
-
-                if(!isset($_SESSION)){
-                  session_start();
-                }
-
-                $_SESSION['id'] = $usuario['id'];
-                $_SESSION['email'] = $usuario ['email'];
-                
-                header("Location: consultar.html");
-                 
-           } else {
-            echo $error_login = "Email ou a senha estão incorretos";
-           }
-            }
-     }
-     ?>
