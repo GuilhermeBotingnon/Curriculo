@@ -69,7 +69,7 @@ if ($_POST){
         <img src="favicon/Logo.svg" alt="Logo GNS" class="img-fluid logo">
       </div>
       <div class="col-md-5">
-        <form action="" method="post">
+        <form method="post">
           <div class="mb-3">
             <label for="username" class="form-label">Nome de usuário</label>
             <input type="text" name="email" class="form-control caixa py-3" placeholder="Exemplo@exemplo.com" required>
