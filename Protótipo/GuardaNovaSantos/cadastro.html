@@ -1,3 +1,68 @@
+<?php
+$txt ='';
+
+
+if(!empty($_POST))
+{ $cooperado = array($_POST['matricula'],
+$_POST['nome'],
+$_POST['nascimento'],
+$_POST['nacionalidade'],
+$_POST['uf'], 
+$_POST['estadocivil'],
+$_POST['cpf'],
+$_POST['rg'],
+$_POST['orgao'],
+$_POST['formacao'],
+$_POST['cep'],
+$_POST['numero'],
+$_POST['bairro'], 
+$_POST['cidade'],
+$_POST['complemento'],
+$_POST['rua'],
+$_POST['email'], 
+$_POST['celular'],
+$_POST['profissao'],
+$_POST['experiencia']
+  );
+ 
+  include_once("conexao.php");
+
+  try{
+
+    $stmt = $conn->prepare("INSERT INTO infocooperados (matricula,nome,nascimento,nacionalidade,uf,estadocivil,cpf,rg,orgao,formacao,cep,numero,bairro,cidade,complemento,rua,email,celular,profissao,experiencia)  VALUES (:matricula,:nome,:nascimento,:nacionalidade,:uf,:estadocivil,:cpf,:rg,:orgao,:formacao,:cep,:numero,:bairro,:cidade,:complemento,:rua,:email,:celular,:profissao,:experiencia)");
+
+    $stmt-> bindParam(':matricula', $cooperado[0]);
+    $stmt-> bindParam(':nome', $cooperado[1]);
+    $stmt-> bindParam(':nascimento', $cooperado[2]);
+    $stmt-> bindParam(':nacionalidade', $cooperado[3]);
+    $stmt-> bindParam(':uf', $cooperado[4]);
+    $stmt-> bindParam(':estadocivil', $cooperado[5]);
+    $stmt-> bindParam(':cpf', $cooperado[6]);
+    $stmt-> bindParam(':rg', $cooperado[7]);
+    $stmt-> bindParam(':orgao', $cooperado[8]);
+    $stmt-> bindParam(':formacao', $cooperado[9]);
+    $stmt-> bindParam('cep',$cooperado[10]);
+    $stmt-> bindParam(':numero', $cooperado[11]);
+    $stmt-> bindParam(':bairro', $cooperado[12]);
+    $stmt-> bindParam(':cidade', $cooperado[13]);
+    $stmt-> bindParam(':complemento', $cooperado[14]);
+    $stmt-> bindParam(':rua', $cooperado[15]);
+    $stmt-> bindParam(':email', $cooperado[16]);
+    $stmt-> bindParam(':celular', $cooperado[17]);
+    $stmt-> bindParam(':profissao', $cooperado[18]);
+    $stmt-> bindParam(':experiencia', $cooperado[19]);
+
+    $stmt->execute();
+
+    echo $txt = "Cadastro Realizado com sucesso ";
+  } catch(PDOException $e){
+    echo $txterro = "Erro ao fazer o cadastro". $e->getMessage();
+  }
+$conn = null;
+
+}
+
+?>
 <!doctype html>
 <html lang="pt-br">
   <head>
@@ -14,9 +79,17 @@
 <!-- class=" navbar-brand text-decoration-none px-2 py-3 bg-white rounded-3"
            style="color:#022873; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700; margin-left: 10em; " -->
 <body>
+  <style>
+    .txtsucesso{
+   color: yellow;
+   font-size: 1em;
+   font-weight: 450;
+    }
+  </style>
+
   <nav class="navbar fixed-top gnsCor">
       <div class="container">
-        <a class="navbar-brand" href="consultar.html">
+        <a class="navbar-brand" href="consulta.php">
           <button 
           class="btn text-decoration-none px-3 py-3 bg-white rounded-3 fs-4 fw-bold"
           style="color: #022873; font-family: Poppins;"
@@ -29,36 +102,49 @@
   <div class="container d-flex align-items-center justify-content-center vh-100">
     <div class="row fs-1">
       <div class="col-md-6 col-sm-3 my-3">
-        <label for="username" class="form-label caixa fs-2">Nome de usuário</label>
-        <input type="text" class="form-control py-3 fs-4" id="" placeholder="Texto Exemplo" required>
+        <label for="matricula" class="form-label caixa fs-2">Nº de Matrícula</label>
+        <input type="text" class="form-control py-3 fs-4" name ="matricula" placeholder="Texto Exemplo" required>
       </div>
       <div class="col-md-6 col-sm-3 my-3">
-        <label for="username" class="form-label caixa fs-2">Nome de usuário</label>
-        <input type="text" class="form-control py-3 fs-4" id="" placeholder="Texto Exemplo" required>
+        <label for="username" class="form-label caixa fs-2">Nome</label>
+        <input type="text" class="form-control py-3 fs-4" name="nome" id="" placeholder="Nome" required>
       </div>
       <div class="col-md-6 col-sm-3 my-3">
-        <label for="username" class="form-label caixa fs-2">Nome de usuário</label>
-        <input type="text" class="form-control py-3 fs-4" id="" placeholder="Texto Exemplo" required>
+        <label for="username" class="form-label caixa fs-2">nascimento</label>
+        <input type="date" class="form-control py-3 fs-4" name="nascimento" id="" placeholder="Texto Exemplo" required>
       </div>
       <div class="col-md-6 col-sm-3 my-3">
-        <label for="username" class="form-label caixa fs-2">Nome de usuário</label>
-        <input type="text" class="form-control py-3 fs-4" id="" placeholder="Texto Exemplo" required>
+        <label for="username" class="form-label caixa fs-2">nacionalidade</label>
+        <input type="text" class="form-control py-3 fs-4" name="nacionalidade" id="" placeholder="Texto Exemplo" required>
       </div>
       <div class="col-md-6 col-sm-3 my-3">
-        <label for="username" class="form-label caixa fs-2">Nome de usuário</label>
-        <input type="text" class="form-control py-3 fs-4" id="" placeholder="Texto Exemplo" required>
+        <label for="username" class="form-label caixa fs-2">UF</label>
+        <input type="text" class="form-control py-3 fs-4" name="uf" id="" placeholder="Texto Exemplo" required>
       </div>
       <div class="col-md-6 col-sm-3 my-3">
-        <label for="username" class="form-label caixa fs-2">Nome de usuário</label>
-        <input type="text" class="form-control py-3 fs-4" id="" placeholder="Texto Exemplo" required>
+        <label for="username" class="form-label caixa fs-2">estadocivil</label>
+        <select class="form-select" name="estadocivil" id="floatingSelectGrid">
+          <option selected>EstadoCivil</option>
+          <option value="1">Solteiro</option>
+          <option value="2">Casado</option>
+          <option value="3">Outro</option>
+        </select>
       </div>
       <div class="col-md-6 col-sm-3 my-3">
-        <label for="username" class="form-label caixa fs-2">Nome de usuário</label>
-        <input type="text" class="form-control py-3 fs-4" id="" placeholder="Texto Exemplo" required>
+        <label for="username" class="form-label caixa fs-2">cpf</label>
+        <input type="number" class="form-control py-3 fs-4" name="cpf" id="" placeholder="Texto Exemplo" required>
       </div>
       <div class="col-md-6 col-sm-3 my-3">
-        <label for="username" class="form-label caixa fs-2">Nome de usuário</label>
-        <input type="text" class="form-control py-3 fs-4" id="" placeholder="Texto Exemplo" required>
+        <label for="username" class="form-label caixa fs-2">rg</label>
+        <input type="number" class="form-control py-3 fs-4" name="rg" id="" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">Orgão Emissor</label>
+        <input type="text" class="form-control py-3 fs-4" name="orgao" id="" placeholder="Texto Exemplo" required>
+      </div>
+      <div class="col-md-6 col-sm-3 my-3">
+        <label for="username" class="form-label caixa fs-2">Formacao Academica</label>
+        <input type="text" class="form-control py-3 fs-4" name="formacao" id="" placeholder="Texto Exemplo" required>
       </div>
     </div>
   </div>
