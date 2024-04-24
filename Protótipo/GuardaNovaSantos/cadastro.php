@@ -99,7 +99,7 @@ $conn = null;
       </div>
   </nav>
 
-<main class="cor" style="font-family: Poppins;">
+<main class="cor secaoCadastro" style="font-family: Poppins;">
   <form method="post">
   <div class="container d-flex align-items-center justify-content-center vh-100">
     <div class="row">
@@ -159,11 +159,13 @@ $conn = null;
         <label for="username" class="form-label caixa fs-2">experiencia Profissional</label>
         <textarea class="form-control caixa2 custom-margin" name="experiencia" placeholder="Expêriencia Profissional"> </textarea>
       </div>
-    </div>
-    <button type="submit" name="enviar" class="btn text-decoration-none px-4 py-2 bg-white rounded-3 fs-4 fw-bold">Enviar</button>
+      <div class="col-md-12 col-sm-3 my-3">
+      <button type="submit" name="enviar" class="btn text-decoration-none px-4 py-2 bg-white rounded-3 fs-4 fw-bold">Enviar</button>
+      <div>
     <div class="container-fluid d-flex justify-content-center align-items-center">
       <p class="txtsucesso"> <?php echo $txt; ?></p>
       </div>
+    </div>
   </div>
 </form>
 </main>
