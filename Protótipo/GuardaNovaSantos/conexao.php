@@ -3,7 +3,7 @@
 $usuario = 'root';
 $senha ='usbw';
 $database ='login';
-$host = 'localhost:3307';
+$host = 'roundhouse.proxy.rlwy.net:31956';
 
 $mysqli = new mysqli($host, $usuario , $senha , $database);
 
