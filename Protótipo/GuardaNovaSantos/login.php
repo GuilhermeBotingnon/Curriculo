@@ -1,6 +1,25 @@
-<?php
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Gns - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylelogin.css">  
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
+    <style>
+.error {
+    color:yellow; /* Cor vermelha do Bootstrap */
+    font-size: 2em;
+    font-weight: 500;
+}
+</style>
+    <?php
+
 include("conexaologin.php");
+
 if ($_POST){
+
      if (strlen($_POST['email'])== 0) {
       echo $error_email = "preencha seu email";
       } else if (strlen($_POST["senha"])== 0){
@@ -24,78 +43,61 @@ if ($_POST){
                 $_SESSION['id'] = $usuario['id'];
                 $_SESSION['email'] = $usuario ['email'];
                 
-                header('location: consultar.html');
+                header("Location: consultar.html");
                  
            } else {
-            echo $error_login = "Email ou Senha incorreto";
+            echo $error_login = "Email ou senha errado patrão";
            }
             }
      }
      ?>
-<!doctype html>
-<html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Gns - Login</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous" async></script>
-    <link rel="stylesheet" href="/css/login.css">
-    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
-    <style>
-.error {
-    color:yellow;
-    font-size: 1em;
-    font-weight: 500;
-}
-</style>
-</head>
-<body>
-  <nav class="navbar fixed-top gnsCor">
-      <div class="container">
-        <a class="navbar-brand" href="index.php">
-          <button 
-          class="btn text-decoration-none px-2 py-3 bg-white rounded-3 fs-4 fw-bold"
-          style="color: #022873; font-family: Poppins;"
-          > Pagina Inicial </button>
-        </a>
+  </head>
+  <body>
+    <header id="header" class="header fixed-top" data-scrollto-offset="0">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark gnsNavCor">
+            <div class="d-flex flex-column flex-lg-row justify-content-start align-items-start">
+                <a href="index.php"
+                class="text-decoration-none px-2 py-3 bg-white rounded-3"
+                style="color:#022873; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700; margin-left: 10em; "
+                >Página Inicial</a>
+        </nav>
+        </header>
+   <main class="tudo mt-4">
+   <div class="row-text-center py-2">
+    <div class="container vh-100 d-flex justify-content-center align-content-center formulario ";>
+     <div class="col-md-6">
+      <div class="col-md-6"> 
+       <img src="favicon/Logo.svg" class="img-fluid logogns">
       </div>
-  </nav>
-<main class="cor text-white fw-bold fs-2" style="font-family: Poppins;">
-  <div class="container d-flex align-items-center justify-content-center vh-100">
-    <div class="row">
-      <div class="col-md-7">
-        <img src="favicon/Logo.svg" alt="Logo GNS" class="img-fluid logo">
-      </div>
-      <div class="col-md-5">
-        <form method="post">
-          <div class="mb-3">
-            <label for="username" class="form-label">Nome de usuário</label>
-            <input type="text" name="email" class="form-control caixa py-3" placeholder="Exemplo@exemplo.com" required>
-            <?php if (!empty($error_email)) : ?>
+      </div>  
+      <form action="" method="POST">
+        <div class="mb-3">
+          <input type="text" name="email" class="form-control-lg caixaemail" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+          <?php if (!empty($error_email)) : ?>
     <div class="error"><?php echo $error_email; ?></div>
 <?php endif; ?>
-          </div>
-          <div class="mb-3">
-            <label for="password" class="form-label">Senha</label>
-            <input type="password" name="senha" class="form-control caixa py-3" placeholder="Digite sua senha" required>
-            <?php if (!empty($error_senha)) : ?>
+
+        </div>
+        <div class="mb-3">
+          <input type="password" name="senha" class="form-control-lg caixasenha" id="exampleInputPassword1" placeholder="Senha"> 
+          <?php if (!empty($error_senha)) : ?>
     <div class="error"><?php echo $error_senha; ?></div>
 <?php endif; ?>
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="remember">
-            <label class="form-check-label caixa" for="remember">Lembrar da senha</label>
-            <?php if (!empty($error_login)) : ?>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input caixacheck" id="exampleCheck1">
+          <label class="form-check-label caixachecktxt" for="exampleCheck1">Lembrar a Senha</label>
+          <?php if (!empty($error_login)) : ?>
     <div class="error"><?php echo $error_login; ?></div>
 <?php endif; ?>
-          </div>
-          <button type="submit" class="btn text-decoration-none px-4 py-2 bg-white rounded-3 fs-4 fw-bold">Entrar</button>
-        </form>
+        </div>
+        <button type="submit" class="btn btn-primary botao" >Login</button>  
       </div>
+      </form>
     </div>
-  </div>
-</main>
-</body>
+  </main>    
+<footer>
+</footer>
+    </body>
 </html>
+
