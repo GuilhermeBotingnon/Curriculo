@@ -1,8 +1,8 @@
 <?php
 
 $usuario = 'root';
-$senha ='usbw';
-$database ='login';
+$senha ='AkKZrzFWqfCSJfAdkZjCBuRwEBBKmBIF';
+$database ='railway';
 $host = 'roundhouse.proxy.rlwy.net:31956';
 
 $mysqli = new mysqli($host, $usuario , $senha , $database);
