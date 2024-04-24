@@ -25,7 +25,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
       $_SESSION['id'] = $usuario['id'];
       header("location: consulta.html");
     } else {
-      echo "Falha ao logar! E-mail ou senha incorretos";
+      echo $error_email = "Falha ao logar! E-mail ou senha incorretos";
     }
   }
 }
@@ -63,10 +63,10 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 <main class="cor text-white fw-bold fs-2" style="font-family: Poppins;">
   <div class="container d-flex align-items-center justify-content-center vh-100">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-6">
         <img src="favicon/Logo.svg" alt="Logo GNS" class="img-fluid logo">
       </div>
-      <div class="col-md-5">
+      <div class="col-md-6">
         <form method="post">
           <div class="mb-3">
             <label for="email" class="form-label">Email</label>
