@@ -40,7 +40,7 @@
         >
           <option selected disabled value="">Selecione um Cadastro</option>
           <?php
-                       include_once("conexaocooperado.php");
+                       include_once("conexao.php");
                        $query = $conn->query("SELECT * FROM infocooperados ORDER BY nome ASC");
                         $registros = $query->fetchAll(PDO::FETCH_ASSOC);
                         print_r($registros);
@@ -52,7 +52,7 @@
                       }
                        ?>
         </select>
-        <button type="submit" name="buscar"class="btn btn-primary botao col-md-9" >Buscar</button>
+        <button type="submit" name="buscar" class="btn btn-primary botao col-md-9" >Buscar</button>
       </form>
     </section>
   </body>
