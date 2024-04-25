@@ -1,50 +1,59 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt_br">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Gns - arquivos</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/stylearquivos.css">  
-    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
-</head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GNS - arquivos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
   <body>
-    <header id="header" class="header fixed-top" data-scrollto-offset="0">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark gnsNavCor">
-            <div class="d-flex flex-column flex-lg-row  align-items-center">
-                <a href="consultar.html"
-                class="text-decoration-none px-2 py-3 bg-white rounded-3"
-                style="color:#022873; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700; margin-left: 10em; "
-                >Voltar</a>
-                <h1 class="text-white d-flex align-items-center justify-content-center" style="margin-left: 7em; font-family: Poppins; font-size: 40px;"> Consulta</h1>
-        </nav>
-    </header>
-    <main class="tudo">
-        <div class="container-fluid d-flex justify-content-center align-items-center">
-            <img src="favicon/Logo.svg" class="img-fluid logogns">
-        </div>
-        <div class="container-fluid d-flex justify-content-center align-items-center">
-                  <form action="vercadastro.php" method="get">  
-                    <select name="select" class="caixaselect" required>
-                        <option value="" disabled selected>Selecione o cooperado cadastrado</option>
-                       <?php
+    <!-- Nav Bar -->
+    <nav class="navbar fixed-top gnsCor">
+      <div class="container">
+        <a class="navbar-brand" href="consulta.php">
+          <button
+            class="btn text-decoration-none px-3 py-3 bg-white rounded-3 fs-4 fw-bold"
+            style="color: #022873; font-family: Poppins"
+          >
+            Voltar
+          </button>
+        </a>
+      </div>
+    </nav>
+    <section class="vh-100 cor">
+      <!-- Logo -->
+      <div class="container d-flex justify-content-center align-items-center">
+        <img src="favicon/Logo.svg" class="img-fluid logo" />
+      </div>
+      <!-- Lista Select -->
+      <form action="vercadastro.php" method="get">
+        <select
+          class="form-select form-select-lg mb-3 container cadastros"
+          aria-label="Large select example"
+        >
+          <option selected disabled value="">Selecione um Cadastro</option>
+          <?php
                        include_once("conexaocooperado.php");
                        $query = $conn->query("SELECT * FROM infocooperados ORDER BY nome ASC");
                         $registros = $query->fetchAll(PDO::FETCH_ASSOC);
                         print_r($registros);
                        foreach($registros as $option){
                        ?> 
-                        <option value="<?php echo $option['id_cooperado']?>"><?php echo $option ['nome']?>
-                        </option>
-                        <?php
-                       }
-                        ?>
-                    </select>
-                <button type="submit" name="buscar"class="btn btn-primary botao col-md-9" >Buscar</button>
-            </form> 
-             
-        </div>
-    </main> 
+                       <option value="<?php echo $option['id_cooperado']?>"><?php echo $option ['nome']?>
+                       </option>
+                       <?php
+                      }
+                       ?>
+        </select>
+        <button type="submit" name="buscar"class="btn btn-primary botao col-md-9" >Buscar</button>
+      </form>
+    </section>
   </body>
 </html>
