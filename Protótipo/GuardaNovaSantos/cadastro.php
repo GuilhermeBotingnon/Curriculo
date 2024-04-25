@@ -22,7 +22,7 @@ $_POST['experiencia']
 
   try{
 
-    $stmt = $conn->prepare("INSERT INTO infocooperados (nome,nascimento,uf,estadocivil,cpf,cep,numero,bairro,cidade,complemento,rua,email,celular,experiencia)  VALUES (:nome,:nascimento,:uf,:estadocivil,:cep,:numero,:bairro,:cidade,:complemento,:rua,:email,:celular,:experiencia)");
+    $stmt = $conn->prepare("INSERT INTO infocooperados (nome,nascimento,uf,estadocivil,cep,numero,bairro,cidade,complemento,rua,email,celular,experiencia)  VALUES (:nome,:nascimento,:uf,:estadocivil,:cep,:numero,:bairro,:cidade,:complemento,:rua,:email,:celular,:experiencia)");
 
     $stmt-> bindParam(':nome', $cooperado[0]);
     $stmt-> bindParam(':nascimento', $cooperado[1]);
