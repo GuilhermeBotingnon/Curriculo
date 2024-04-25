@@ -33,7 +33,7 @@
         <img src="favicon/Logo.svg" class="img-fluid logo" />
       </div>
       <!-- Lista Select -->
-      <form action="vercadastro.php" method="get">
+      <form action="verCadastro.php" method="get">
         <select
           class="form-select form-select-lg mb-3 container cadastros"
           aria-label="Large select example"
@@ -46,7 +46,7 @@
                         print_r($registros);
                        foreach($registros as $option){
                        ?> 
-                       <option value="<?php echo $option['id_cooperado']?>"><?php echo $option ['nome']?>
+                       <option value="<?php echo $option['id']?>"><?php echo $option ['nome']?>
                        </option>
                        <?php
                       }
