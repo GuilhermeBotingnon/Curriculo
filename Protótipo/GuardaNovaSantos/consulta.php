@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="/css/consulta.css">
     <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
 </head>
-<!-- class=" navbar-brand text-decoration-none px-2 py-3 bg-white rounded-3"
-           style="color:#022873; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700; margin-left: 10em; " -->
 <body>
   <nav class="navbar fixed-top gnsCor">
       <div class="container">
@@ -27,35 +25,42 @@
 <main class="cor" style="font-family: Poppins;">
   <div class="container d-flex align-items-center justify-content-center vh-100">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-7 d-flex justify-content-center">
         <img src="favicon/Logo.svg" alt="Logo GNS" class="img-fluid logo">
       </div>
-      <div class="col-md-5">
-          <div class="mb-3 py-3">
-            <a class="navbar-brand" href="cadastro.php">
+      <div class="col-md-5 py-3">
+          <div class="mb-2 my-4">
+            <a href="cadastro.php">
               <button 
               class="btn form-control text-decoration-none px-2 py-3 bg-white rounded-3 fs-2 fw-bold"
               style="color: #022873; font-family: Poppins;"
               > Novo Registro </button>
             </a>
           </div>
-          <div class="mb-3 py-3">
-            <a class="navbar-brand" href="ficha.php">
+          <div class="mb-2 my-4">
+            <a href="ficha.php">
               <button 
               class="btn form-control text-decoration-none px-2 py-3 bg-white rounded-3 fs-2 fw-bold"
               style="color: #022873; font-family: Poppins;"
               > Enviar Ficha </button>
             </a>
           </div>
-          <div class="mb-3 py-3">
-            <a class="navbar-brand" href="vercadastro.php">
+          <div class="mb-2 my-4">
+            <a href="vercadastro.php">
               <button 
               class="btn form-control text-decoration-none px-2 py-3 bg-white rounded-3 fs-2 fw-bold"
               style="color: #022873; font-family: Poppins;"
               > Consultar Registros </button>
             </a>
-          </div>
       </div>
+        <div class="mb-2 my-4">
+            <a href="vercadastro.php">
+            <button 
+            class="btn form-control text-decoration-none px-2 py-3 bg-white rounded-3 fs-2 fw-bold"
+            style="color: #022873; font-family: Poppins;"
+            > Consultar Fichas </button>
+        </a>
+  </div>
     </div>
   </div>
 </main>

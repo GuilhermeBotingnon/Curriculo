@@ -5,9 +5,8 @@ a {
 }
 @media (max-width: 374px){
   .logo {
-    height: 80%;
-    margin-left: 8vh;
-    margin-bottom: 20vh;
+    height: 200px;
+    margin-top: 70px;
   }
   .caixa {
     font-size: 20px;
@@ -16,9 +15,8 @@ a {
 }
 @media (min-width: 374px) and (max-width:424px){
   .logo {
-    height: 80%;
-    margin-left: 11vh;
-    margin-bottom: 20vh;
+    height: 200px;
+    margin-top: 70px;
   }
   .caixa {
     font-size: 25px;
@@ -27,33 +25,41 @@ a {
 }
 @media (min-width: 424px) and (max-width:767px){
   .logo {
-    height: 80%;
-    margin-left: 14vh;
-    margin-bottom: 20vh;
+    height: 200px;
+    margin-top: 70px;
   }
   .caixa {
     font-size: 25px;
     color: #022873;
   }
 }
-@media (min-width: 768px) and (max-width:1024px) {
+@media (min-width: 768px) and (max-width:1023px) {
   .logo {
-    height: 65%;
-    margin-top: 2rem;
-    margin-right: 20rem;
-    padding-left: 6rem;
+    height: 300px;
+    margin-top: 100px;
+    margin-right: 60px;
   }
   .caixa {
-    font-size: 20px;
+    font-size: 12px;
+    color: #022873;
+  }
+}
+@media (min-width: 1024px) and (max-width:1439px) {
+  .logo {
+    height: 350px;
+    margin-top: 100px;
+    margin-right: 90px;
+  }
+  .caixa {
+    font-size: 12px;
     color: #022873;
   }
 }
 @media (min-width: 1440px) {
   .logo {
-    
-    height: 80%;
-    margin-top: 2rem;
-    margin-right: 35rem;
+    height: 350px;
+    margin-top: 60px;
+    margin-right: 300px;
   }
   .caixa {
     font-size: 25px;

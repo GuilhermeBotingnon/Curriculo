@@ -79,6 +79,7 @@ $conn = null;
   </nav>
   <!-- Começo Formulario -->
     <section class="Main d-flex justify-content-center">
+    <form action="#" method="post">
         <div class="container Formulario">
             <div class="row">
               <div class="col-md-6 col-sm-3 my-3">
@@ -142,6 +143,7 @@ $conn = null;
               <div>
             </div>
           </div>
+          </form>
           <div class="container-fluid d-flex justify-content-center align-items-center">
             <p class="txtsucesso"> <?php echo $txt; ?></p>
           </div>
