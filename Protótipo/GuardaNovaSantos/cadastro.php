@@ -132,7 +132,7 @@ $conn = null;
               </div>
               <div class="col-md-6 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">Complemento</label>
-                <input type="text" class="form-control py-3 fs-4" name="complemento" id="" placeholder="Texto Exemplo" required>
+                <input type="text" class="form-control py-3 fs-4" name="complemento" id="" placeholder="Texto Exemplo">
               </div>
               <div class="col-md-12 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">Experiencia Profissional</label>

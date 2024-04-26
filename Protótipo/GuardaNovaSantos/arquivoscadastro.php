@@ -48,7 +48,7 @@
                         print_r($registros);
                        foreach($registros as $option){
                        ?> 
-                        <option value="<?php echo $option['id']?>"><?php echo $option ['nome']?>
+                        <option value="<?php echo $option['id_cooperado']?>"><?php echo $option ['nome']?>
                         </option>
                         <?php
                        }

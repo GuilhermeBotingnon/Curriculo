@@ -8,7 +8,7 @@ if(isset($_GET['buscar'])) {
       $id_cooperado = $_GET['select'];
 
       // Busca as informações do cooperado no banco de dados
-      $stmt = $conn->prepare("SELECT * FROM infocooperados WHERE id = :id_cooperado");
+      $stmt = $conn->prepare("SELECT * FROM infocooperados WHERE id_cooperado = :id_cooperado");
       $stmt->bindParam(':id_cooperado', $id_cooperado, PDO::PARAM_INT);
       $stmt->execute();
       $cooperado = $stmt->fetch(PDO::FETCH_ASSOC);
