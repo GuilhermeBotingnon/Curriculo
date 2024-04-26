@@ -106,8 +106,8 @@ $conn = null;
                 <label for="username" class="form-label caixa fs-2">Estado civil</label>
                 <select class="form-select py-3 fs-4" name="estadocivil" id="floatingSelectGrid">
                   <option selected>Solteiro</option>
-                  <option value="2">Casado</option>
-                  <option value="3">Outro</option>
+                  <option value="Casado">Casado</option>
+                  <option value="Outros">Outro</option>
                 </select>
               </div>
               <div class="col-md-6 col-sm-3 my-3">

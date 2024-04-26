@@ -7,6 +7,10 @@ $host = 'roundhouse.proxy.rlwy.net:35564';
 
 $mysqli = new mysqli($host, $usuario , $senha , $database);
 
+if ($mysqli ->error){
+    die("Erro ao Conectar com o DB :" . $mysqli ->error);
+} 
+
 try{
     $conn = new PDO("mysql:host=$host;dbname=railway",$usuario,$senha);
 
@@ -14,7 +18,5 @@ try{
 } catch(PDOException $e) {
 }
 
-if ($mysqli ->error){
-    die("Erro ao Conectar com o DB :" . $mysqli ->error);
-} 
+
 ?>

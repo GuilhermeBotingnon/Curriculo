@@ -1,17 +1,21 @@
 <?php
-                // Conectar ao banco de dados (inclua seu código de conexão aqui)
-                include_once('conexao.php');
-                // Receber o ID do cadastro (por exemplo, via GET)
-                $id_cadastro = $_GET['id'];
+include_once("conexao.php");
 
-                // Consultar o cadastro no banco de dados
-                $consulta = $conn->query("SELECT * FROM infocooperados WHERE id_cooperado = $id_cadastro");
-                $registro = $consulta->fetch(PDO::FETCH_ASSOC);
+// Verifica se o formulário foi enviado
+if(isset($_GET['buscar'])) {
+  // Verifica se foi selecionado um cooperado
+  if(isset($_GET['select'])) {
+      $id_cooperado = $_GET['select'];
 
-                // Extrair os dados do cadastro para variáveis
-                $nome = $registro['nome'];
-                $email = $registro['email'];
-            ?>
+      // Busca as informações do cooperado no banco de dados
+      $stmt = $conn->prepare("SELECT * FROM infocooperados WHERE id = :id_cooperado");
+      $stmt->bindParam(':id_cooperado', $id_cooperado, PDO::PARAM_INT);
+      $stmt->execute();
+      $cooperado = $stmt->fetch(PDO::FETCH_ASSOC);
+
+  }
+}
+?>
 <!doctype html>
 <html lang="pt_br">
   <head>
@@ -41,69 +45,61 @@
             <div class="row">
               <div class="col-md-6 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">Nome</label>
-                <input type="text" class="form-control py-3 fs-4" name="nome" id="nome" value="<?php echo $nome; ?>" disabled>
+                <input type="text" class="form-control py-3 fs-4" name="nome" value="<?php echo "{$cooperado['nome']}";?>" disabled>
               </div>
               <div class="col-md-6 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">Data de nascimento</label>
-                <input type="date" class="form-control py-3 fs-4" name="nascimento" id="" placeholder="Texto Exemplo" required>
+                <input type="date" class="form-control py-3 fs-4" name="nascimento" value="<?php echo "{$cooperado['nascimento']}";?>" placeholder="Texto Exemplo" required disabled>
               </div>
               <div class="col-md-6 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">Celular</label>
-                <input type="tel" class="form-control py-3 fs-4" maxlength="15" onkeyup="handlePhone(event)"  name="celular" id="" placeholder="Texto Exemplo" required>
+                <input type="tel" class="form-control py-3 fs-4" maxlength="15" onkeyup="handlePhone(event)"  name="celular" value="<?php echo "{$cooperado['celular']}";?>" placeholder="Texto Exemplo" required disabled>
               </div>
               <div class="col-md-6 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">Email</label>
-                <input type="text" class="form-control py-3 fs-4" name="email" id="" placeholder="Texto Exemplo" required>
+                <input type="text" class="form-control py-3 fs-4" name="email" value="<?php echo "{$cooperado['email']}";?>" placeholder="Texto Exemplo" required disabled>
               </div>
               <div class="col-md-6 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">UF</label>
-                <input type="text" class="form-control py-3 fs-4" name="uf" id="" placeholder="Texto Exemplo" required>
+                <input type="text" class="form-control py-3 fs-4" name="uf" value="<?php echo "{$cooperado['uf']}";?>" placeholder="Texto Exemplo" required disabled>
               </div>
               <div class="col-md-6 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">Estado civil</label>
-                <select class="form-select py-3 fs-4" name="estadocivil" id="floatingSelectGrid">
-                  <option selected>Solteiro</option>
-                  <option value="2">Casado</option>
-                  <option value="3">Outro</option>
+                <select class="form-select py-3 fs-4" disabled name="estadocivil" id="floatingSelectGrid">
+                  <option selected disabled value=""><?php echo "{$cooperado['estadocivil']}";?></option>
                 </select>
               </div>
               <div class="col-md-6 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">CEP</label>
-                <input type="text" class="form-control py-3 fs-4" onblur="pesquisacep(this.value);" onkeyup="handleZipCode(event)"  maxlength="9"  name="cep" id="cep" placeholder="CEP" required>
+                <input type="text" class="form-control py-3 fs-4" onblur="pesquisacep(this.value);" onkeyup="handleZipCode(event)"  maxlength="9"  name="cep" id="cep" value="<?php echo "{$cooperado['cep']}";?>" placeholder="CEP" required disabled>
               </div>
               <div class="col-md-6 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">Cidade</label>
-                <input type="text" class="form-control py-3 fs-4" name="cidade" id="cidade" placeholder="Texto Exemplo" required>
+                <input type="text" class="form-control py-3 fs-4" name="cidade" id="cidade" value="<?php echo "{$cooperado['cidade']}";?>" placeholder="Texto Exemplo" required disabled>
               </div>
               <div class="col-md-6 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">Bairro</label>
-                <input type="text" class="form-control py-3 fs-4" name="bairro" id="bairro" placeholder="Texto Exemplo" required>
+                <input type="text" class="form-control py-3 fs-4" name="bairro" id="bairro" value="<?php echo "{$cooperado['bairro']}";?>" placeholder="Texto Exemplo" required disabled>
               </div>
               <div class="col-md-6 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">Rua</label>
-                <input type="text" class="form-control py-3 fs-4" name="rua" id="rua" placeholder="Texto Exemplo" required>
+                <input type="text" class="form-control py-3 fs-4" name="rua" id="rua" value="<?php echo "{$cooperado['rua']}";?>" placeholder="Texto Exemplo" required disabled>
               </div>
               <div class="col-md-6 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">Número</label>
-                <input type="number" class="form-control py-3 fs-4" name="numero" id="numero" placeholder="Texto Exemplo" required>
+                <input type="number" class="form-control py-3 fs-4" name="numero" id="numero" value="<?php echo "{$cooperado['numero']}";?>" placeholder="Texto Exemplo" required disabled>
               </div>
               <div class="col-md-6 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">Complemento</label>
-                <input type="text" class="form-control py-3 fs-4" name="complemento" id="" placeholder="Texto Exemplo" required>
+                <input type="text" class="form-control py-3 fs-4" name="complemento" value="<?php echo "{$cooperado['complemento']}";?>" placeholder="Texto Exemplo" required disabled>
               </div>
               <div class="col-md-12 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">Experiencia Profissional</label>
-                <textarea class="form-control caixa2 custom-margin" name="experiencia" placeholder="Expêriencia Profissional"> </textarea>
+                <textarea class="form-control caixa2 custom-margin" name="experiencia" disabled placeholder="Expêriencia Profissional"> <?php echo "{$cooperado['experiencia']}";?> </textarea>
               </div>
-              <div class="my-3 d-flex justify-content-center">
-              <button type="submit" name="enviar" class="btn text-decoration-none px-4 py-2 bg-white rounded-3 fs-4 fw-bold">Cadastrar</button>
-              <div>
             </div>
           </div>
           </form>
-          <div class="container-fluid d-flex justify-content-center align-items-center">
-            <p class="txtsucesso"> <?php echo $txt; ?></p>
-          </div>
     </section>
     <!-- Scripts adicionais / Mascaras -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

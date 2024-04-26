@@ -35,25 +35,27 @@
       <!-- Lista Select -->
       <form action="verCadastro.php" method="get">
         <select
+          name="select"
           class="form-select form-select-lg mb-3 container cadastros"
           aria-label="Large select example"
+          required
         >
-          <option selected disabled value="">Selecione um Cadastro</option>
-          <?php
+        <option value="" disabled selected>Selecione o cooperado cadastrado</option>
+                       <?php
                        include_once("conexao.php");
                        $query = $conn->query("SELECT * FROM infocooperados ORDER BY nome ASC");
                         $registros = $query->fetchAll(PDO::FETCH_ASSOC);
                         print_r($registros);
                        foreach($registros as $option){
                        ?> 
-                       <option value="<?php echo $option['id_cooperado']?>"><?php echo $option ['nome']?>
-                       </option>
-                       <?php
-                      }
-                       ?>
+                        <option value="<?php echo $option['id']?>"><?php echo $option ['nome']?>
+                        </option>
+                        <?php
+                       }
+                        ?>
         </select>
         <div class="my-3 py-3 d-flex justify-content-center">
-          <button type="submit" name="enviar" class="btn text-decoration-none px-4 py-2 bg-white rounded-3 fs-4 fw-bold">Consultar</button>
+          <button type="submit" name="buscar" class="btn text-decoration-none px-4 py-2 bg-white rounded-3 fs-4 fw-bold">Buscar</button>
         <div>
       </form>
     </section>
