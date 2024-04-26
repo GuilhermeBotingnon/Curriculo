@@ -1,21 +1,3 @@
-<?php
-include_once("conexao.php");
-
-// Verifica se o formulário foi enviado
-if(isset($_GET['buscar'])) {
-    // Verifica se foi selecionado um cooperado
-    if(isset($_GET['select'])) {
-        $id = $_GET['select'];
-
-        // Busca as informações do cooperado no banco de dados
-        $stmt = $conn->prepare("SELECT * FROM infocooperados WHERE id = :id");
-        $stmt->bindParam(':id', $id, PDO::PARAM_INT);
-        $stmt->execute();
-        $cooperado = $stmt->fetch(PDO::FETCH_ASSOC);
-
-    }
-}
-?>
 <!doctype html>
 <html lang="pt_br">
   <head>
@@ -25,14 +7,34 @@ if(isset($_GET['buscar'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css">
+    <!-- PHP -->
+    <?php
+include_once("conexao.php");
+
+// Verifica se o formulário foi enviado
+if(isset($_GET['buscar'])) {
+    // Verifica se foi selecionado um cooperado
+    if(isset($_GET['select'])) {
+        $id_cooperado = $_GET['select'];
+
+        // Busca as informações do cooperado no banco de dados
+        $stmt = $conn->prepare("SELECT * FROM infocooperados WHERE id_cooperado = :id_cooperado");
+        $stmt->bindParam(':id_cooperado', $id_cooperado, PDO::PARAM_INT);
+        $stmt->execute();
+        $cooperado = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    }
+}
+?>
+  <!--  -->
   </head>
   <body>
     <!-- confirmação -->
     <script>
-      function confirmarExclusao(id) {
+      function confirmarExclusao(id_cooperado) {
           var confirmacao = confirm("Tem certeza que deseja excluir este cadastro?");
           if (confirmacao) {
-              window.location.href = 'excluircadastro.php?select=' + id;
+              window.location.href = 'excluircadastro.php?select=' + id_cooperado;
           }
       }
       </script>

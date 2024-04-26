@@ -3,7 +3,7 @@
 $cod = $_GET['select'];
 
 
-include_once('conexaocooperado.php');
+include_once('conexao.php');
 	try 
 	{
 		   
