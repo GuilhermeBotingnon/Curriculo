@@ -33,7 +33,7 @@
         <img src="favicon/Logo.svg" class="img-fluid logo" />
       </div>
       <!-- Lista Select -->
-      <form action="vercadastro.php" method="get">
+      <form action="verCadastro.php" method="get">
         <select
           class="form-select form-select-lg mb-3 container cadastros"
           aria-label="Large select example"
