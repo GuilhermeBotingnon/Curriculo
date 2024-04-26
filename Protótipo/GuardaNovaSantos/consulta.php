@@ -38,28 +38,13 @@
             </a>
           </div>
           <div class="mb-2 my-4">
-            <a href="ficha.php">
-              <button 
-              class="btn form-control text-decoration-none px-2 py-3 bg-white rounded-3 fs-2 fw-bold"
-              style="color: #022873; font-family: Poppins;"
-              > Enviar Ficha </button>
-            </a>
-          </div>
-          <div class="mb-2 my-4">
             <a href="arquivoscadastro.php">
               <button 
               class="btn form-control text-decoration-none px-2 py-3 bg-white rounded-3 fs-2 fw-bold"
               style="color: #022873; font-family: Poppins;"
               > Consultar Registros </button>
             </a>
-      </div>
-        <div class="mb-2 my-4">
-            <a href="arquivosficha.php">
-            <button 
-            class="btn form-control text-decoration-none px-2 py-3 bg-white rounded-3 fs-2 fw-bold"
-            style="color: #022873; font-family: Poppins;"
-            > Consultar Fichas </button>
-        </a>
+          </div>
   </div>
     </div>
   </div>
