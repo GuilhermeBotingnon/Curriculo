@@ -2,7 +2,7 @@
                 // Conectar ao banco de dados (inclua seu código de conexão aqui)
                 include_once('conexao.php');
                 // Receber o ID do cadastro (por exemplo, via GET)
-                $id_cadastro = $_GET['id_cooperado'];
+                $id_cadastro = $_GET['id'];
 
                 // Consultar o cadastro no banco de dados
                 $consulta = $conn->query("SELECT * FROM infocooperados WHERE id_cooperado = $id_cadastro");
