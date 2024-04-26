@@ -1,9 +1,17 @@
-<?php 
-    include_once('conexao.php');
-    $sql = "SELECT * FROM infocooperados WHERE id_cooperado=".$_REQUEST["id_cooperado"];
-    $res = $conn->query($sql);
-    $row = $res->fetchObject();
-?>
+<?php
+                // Conectar ao banco de dados (inclua seu código de conexão aqui)
+                include_once('conexao.php');
+                // Receber o ID do cadastro (por exemplo, via GET)
+                $id_cadastro = $_GET['id_cooperado'];
+
+                // Consultar o cadastro no banco de dados
+                $consulta = $conn->query("SELECT * FROM infocooperados WHERE id_cooperado = $id_cadastro");
+                $registro = $consulta->fetch(PDO::FETCH_ASSOC);
+
+                // Extrair os dados do cadastro para variáveis
+                $nome = $registro['nome'];
+                $email = $registro['email'];
+            ?>
 <!doctype html>
 <html lang="pt_br">
   <head>
@@ -33,7 +41,7 @@
             <div class="row">
               <div class="col-md-6 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">Nome</label>
-                <input type="text" class="form-control py-3 fs-4" name="nome" value="<?php print $row->nome; ?>" disabled>
+                <input type="text" class="form-control py-3 fs-4" name="nome" id="nome" value="<?php echo $nome; ?>" disabled>
               </div>
               <div class="col-md-6 col-sm-3 my-3">
                 <label for="username" class="form-label caixa fs-2">Data de nascimento</label>
