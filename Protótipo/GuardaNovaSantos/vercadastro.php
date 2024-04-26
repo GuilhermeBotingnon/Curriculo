@@ -29,10 +29,10 @@ if(isset($_GET['buscar'])) {
   <body>
     <!-- confirmação -->
     <script>
-      function confirmarExclusao(id_cooperado) {
+      function confirmarExclusao(id) {
           var confirmacao = confirm("Tem certeza que deseja excluir este cadastro?");
           if (confirmacao) {
-              window.location.href = 'excluircadastro.php?select=' + id_cooperado;
+              window.location.href = 'excluircadastro.php?select=' + id;
           }
       }
       </script>
