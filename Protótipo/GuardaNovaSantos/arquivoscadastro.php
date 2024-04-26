@@ -33,7 +33,7 @@
         <img src="favicon/Logo.svg" class="img-fluid logo" />
       </div>
       <!-- Lista Select -->
-      <form action="verCadastro.php" method="get">
+      <form action="vercadastro.php" method="get">
         <select
           class="form-select form-select-lg mb-3 container cadastros"
           aria-label="Large select example"
@@ -52,7 +52,9 @@
                       }
                        ?>
         </select>
-        <button type="submit" name="buscar" class="btn btn-primary botao col-md-9" >Buscar</button>
+        <div class="my-3 py-3 d-flex justify-content-center">
+          <button type="submit" name="enviar" class="btn text-decoration-none px-4 py-2 bg-white rounded-3 fs-4 fw-bold">Consultar</button>
+        <div>
       </form>
     </section>
   </body>

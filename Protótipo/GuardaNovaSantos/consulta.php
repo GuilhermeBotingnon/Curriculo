@@ -46,7 +46,7 @@
             </a>
           </div>
           <div class="mb-2 my-4">
-            <a href="verCadastro.php">
+            <a href="arquivoscadastro.php">
               <button 
               class="btn form-control text-decoration-none px-2 py-3 bg-white rounded-3 fs-2 fw-bold"
               style="color: #022873; font-family: Poppins;"
@@ -54,7 +54,7 @@
             </a>
       </div>
         <div class="mb-2 my-4">
-            <a href="vercadastro.php">
+            <a href="arquivosficha.php">
             <button 
             class="btn form-control text-decoration-none px-2 py-3 bg-white rounded-3 fs-2 fw-bold"
             style="color: #022873; font-family: Poppins;"
