@@ -18,6 +18,7 @@
 </head>
 
 <body>
+
   <!-- Navbar -->
   <header id="header" class="header fixed-top" data-scrollto-offset="0">
     <!-- Instagram -->
@@ -63,6 +64,9 @@
                 <a class="nav-link gnsNav active" href="#Sobre" alt="Botão Sobre">Sobre</a>
               </li>
               <li class="nav-item mx-2  ">
+                <a class="nav-link gnsNav active" href="#Videos" alt="Botão Feedback">Vídeos</a>
+              </li>
+              <li class="nav-item mx-2  ">
                 <a class="nav-link gnsNav active" href="#Feedbacks" alt="Botão Feedback">Feedbacks</a>
               </li>
             </ul>
@@ -79,8 +83,8 @@
   <main>
     <!-- Inicio -->
     <section id="Inicio" class="d-flex align-items-center gnsBackground secao" style="
-  background-size: cover;
-  background-repeat: no-repeat;">
+      background-size: cover;
+      background-repeat: no-repeat;">
 
       <h1 class="container text-center text-white fw-bold lh-base"> A segurança e comodidade que o seu condomínio ou estabelecimento possa precisar em um catálogo de opções pensadas exclusivamente para você. </h1>
 
@@ -240,7 +244,7 @@
     </section>
     <!-- Sobre Nos -->
     <section id="Sobre" class="secao6 gnsBackground" style="background-size: cover;
- background-repeat: no-repeat;">
+      background-repeat: no-repeat;">
 
       <div class="container text-center">
         <div class="row">
@@ -257,7 +261,7 @@
       </div>
     </section>
     <!-- Missão Visão Valores -->
-    <section id="Sobre" class="secao7 gnsCorB">
+    <section id=" class=" secao7 gnsCorB">
 
       <div class="container text-center">
         <div class="row">
@@ -290,7 +294,7 @@
       </div>
     </section>
     <!-- Nossas Conquistas -->
-    <section id="Sobre" class="secao8 gnsCorA">
+    <section id="" class="secao8 gnsCorA">
 
       <div class="container text-center">
         <div class="row">
@@ -316,8 +320,62 @@
         </div>
       </div>
     </section>
+    <!-- Parceiros -->
+    <section id="Parceiros" class="secao9 gnsCorB">
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="container d-flex justify-content-center align-items-center text-black fw-bold my-5"> Parceiros </h1>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center mt-3 ">
+        <div class="row align-items-start">
+          <div class="col-md-4">
+            <img src="images/icons/sicredi.png" alt="Parceiro" class="img-fluid gnsImage">
+          </div>
+          <div class="col-md-4">
+            <img src="images/icons/sicredi.png" alt="Parceiro" class="img-fluid gnsImage parceiro">
+          </div>
+          <div class="col-md-4">
+            <img src="images/icons/sicredi.png" alt="Parceiro" class="img-fluid gnsImage parceiro">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Seção de Vídeos -->
+    <section id="Videos" class="secao10 gnsCorA">
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="container d-flex justify-content-center align-items-center text-white fw-bold my-5"> Vídeos Sobre Cooperativismo </h1>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-4 text-center">
+            <a href="https://youtu.be/8ctymfoR9KY" target="_blank">
+              <img src="images/videos/SomosCoop.jpg" alt="Ícone de Vídeo Cooperativo" style="filter: drop-shadow(2px 2px 4px);" class="img-fluid rounded-3 video">
+            </a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="https://youtu.be/qSKx_Jxxh4s" target="_blank">
+              <img src="images/videos/VemSerCoop.jpg" alt="Ícone do Segundo Vídeo Cooperativo" style="filter: drop-shadow(2px 2px 4px);" class="img-fluid rounded-3 video video2">
+            </a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="https://youtu.be/ByjYbJMh4y4" target="_blank">
+              <img src="images/videos/Cooperativismo.jpg" alt="Ícone do Terceiro Vídeo Cooperativo " style="filter: drop-shadow(2px 2px 4px);" class="img-fluid rounded-3 video video2">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Feedbacks e coperados -->
-    <section id="Feedbacks" class="secao9">
+    <section id="Feedbacks" class="secao11">
       <!-- Texto Heading -->
       <div class="container text-center">
         <div class="row">
@@ -407,14 +465,16 @@
       </div>
     </section>
     <!-- Api Google & Enviar Comentario -->
-    <section id="" class="container secao10">
+    <section id="" class="container secao12">
       <h1 class="text-center fw-bold text-black my-5 mb-5"> Entre em contato </h1>
       <div class=" align-items-center contact-content">
         <div class="container">
           <div class="row">
             <div class="col-lg-6">
               <div id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29170.405312296145!2d-46.327678!3d-23.949806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce03742c72641b%3A0x7f2a9f1c53c20a58!2sCondom%C3%ADnio%20Edif%C3%ADcio%20Comercial%20Office%20Center%20-%20R.%20Joaquim%20T%C3%A1vora%2C%2093%20-%20Vila%20Matias%2C%20Santos%20-%20SP%2C%2011075-300%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1699926146926!5m2!1spt-BR!2sus" width="100%" height="574px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
+                <a href="https://www.google.com/maps?ll=-23.949806,-46.327678&z=14&t=m&hl=pt-BR&gl=US&mapclient=embed&q=Condom%C3%ADnio+Edif%C3%ADcio+Comercial+Office+Center+R.+Joaquim+T%C3%A1vora,+93+-+Vila+Matias+Santos+-+SP+11075-300,+Brasil">
+                  <img src="images/predio.png" style="max-height: 574px;" alt="Descrição da imagem" class="img-fluid rounded-3 predio">
+                </a>
               </div>
             </div>
             <div class="col-12 col-lg-6">
@@ -435,12 +495,12 @@
                   <div class="col-lg-12">
                     <fieldset>
                       <label for="message">Mensagem</label>
-                      <textarea name="message" id="message" placeholder="Deixe aqui seu FeedBack"></textarea>
+                      <textarea name="message" id="message" placeholder="Deixe aqui a sua mensagem"></textarea>
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <button type="submit" id="form-submit" class="orange-button">Enviar Feedback</button>
+                      <button type="submit" id="form-submit" class="orange-button">Enviar Email</button>
                     </fieldset>
                   </div>
                 </div>
@@ -451,9 +511,18 @@
       </div>
 
     </section>
+    <!-- Foto do Prédio -->
+    <section class="container text-center mb-5 secao13">
+      <div class="row">
+        <div class="col-lg-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29170.405312296145!2d-46.327678!3d-23.949806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce03742c72641b%3A0x7f2a9f1c53c20a58!2sCondom%C3%ADnio%20Edif%C3%ADcio%20Comercial%20Office%20Center%20-%20R.%20Joaquim%20T%C3%A1vora%2C%2093%20-%20Vila%20Matias%2C%20Santos%20-%20SP%2C%2011075-300%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1699926146926!5m2!1spt-BR!2sus" width="100%" height="574px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
+        </div>
+      </div>
+
+    </section>
   </main>
   <footer class="text-center text-lg-start gnsCor">
-    <div class="container d-flex justify-content-center py-5">
+    <div class="container d-flex justify-content-center py-3">
       <a href="https://api.whatsapp.com/send?phone=551332223906&text=Olá, Desejo Saber Mais Informaçoes Sobre a GuardaNovaSantos." target="_blank">
         <button type="button" class="btn btn-outline-dark btn-lg mx-2" style="background-color: #FFF;">
           <i class="fa fa-whatsapp"></i>
@@ -467,8 +536,8 @@
     </div>
     <!-- Copyright -->
     <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      Feito por:
-      <a class="text-white" href="https://github.com/GuilhermeBotingnon/Curriculo">Guilherme Botingnon</a>
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Guarda Nova Santos</a>
     </div>
   </footer>
 </body>
