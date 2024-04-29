@@ -53,11 +53,6 @@ if ($_POST) {
       font-weight: 500;
     }
   </style>
-  <script>
-    function senha() {
-      window.alert("login: gns@gns , senha: gns")
-    }
-  </script>
   <nav class="navbar fixed-top gnsCor">
     <div class="container">
       <a class="navbar-brand" href="index.php">
@@ -75,20 +70,20 @@ if ($_POST) {
           <form method="post">
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
-              <input type="text" name="email" class="form-control caixa py-3" placeholder="Exemplo@exemplo.com" required>
+              <input type="text" name="email" class="form-control caixa py-3" placeholder="gns@gns.com" required>
               <?php if (!empty($error_email)) : ?>
                 <div class="error"><?php echo $error_email; ?></div>
               <?php endif; ?>
             </div>
             <div class="mb-3">
               <label for="senha" class="form-label">Senha</label>
-              <input type="password" name="senha" class="form-control caixa py-3" placeholder="Digite sua senha" required>
+              <input type="password" name="senha" class="form-control caixa py-3" placeholder="gns" required>
               <?php if (!empty($error_login)) : ?>
                 <div class="error"><?php echo $error_login; ?></div>
               <?php endif; ?>
             </div>
             <div class="mb-3 d-flex justify-content-center">
-              <button type="submit" name="enviar" onclick="senha()" class="btn text-decoration-none mt-4 px-3 py-2 bg-white rounded-3 fs-3 fw-bold">Entrar</button>
+              <button type="submit" name="enviar" class="btn text-decoration-none mt-4 px-3 py-2 bg-white rounded-3 fs-3 fw-bold">Entrar</button>
             </div>
           </form>
         </div>

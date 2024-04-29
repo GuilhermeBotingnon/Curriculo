@@ -64,9 +64,6 @@
                 <a class="nav-link gnsNav active" href="#Sobre" alt="Botão Sobre">Sobre</a>
               </li>
               <li class="nav-item mx-2  ">
-                <a class="nav-link gnsNav active" href="#Videos" alt="Botão Feedback">Vídeos</a>
-              </li>
-              <li class="nav-item mx-2  ">
                 <a class="nav-link gnsNav active" href="#Feedbacks" alt="Botão Feedback">Feedbacks</a>
               </li>
             </ul>
