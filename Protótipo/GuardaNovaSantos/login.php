@@ -70,7 +70,7 @@ if ($_POST) {
           <form method="post">
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
-              <input type="text" name="email" class="form-control caixa py-3" placeholder="gns@gns.com" required>
+              <input type="text" name="email" class="form-control caixa py-3" placeholder="gns@gns" required>
               <?php if (!empty($error_email)) : ?>
                 <div class="error"><?php echo $error_email; ?></div>
               <?php endif; ?>
