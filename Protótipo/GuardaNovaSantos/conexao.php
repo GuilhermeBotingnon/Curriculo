@@ -1,9 +1,9 @@
 <?php
 
 $usuario = 'root';
-$senha ='eyVhlMSOpxzgVTTlAuCjvEqHOJIPfWMd';
+$senha ='CvXXTsYZOcSGYnDkjCVhexmwgzhIbWyB';
 $database ='railway';
-$host = 'roundhouse.proxy.rlwy.net:35564';
+$host = 'viaduct.proxy.rlwy.net:21234';
 
 $mysqli = new mysqli($host, $usuario , $senha , $database);
 
