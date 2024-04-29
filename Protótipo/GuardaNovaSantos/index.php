@@ -22,11 +22,11 @@
   <!-- Navbar -->
   <header id="header" class="header fixed-top" data-scrollto-offset="0">
     <!-- Instagram -->
-    <a href="https://www.instagram.com/guardanova_santos/" class="float" target="_blank">
+    <a href="https://github.com/GuilhermeBotingnon/Curriculo" class="float" target="_blank">
       <i class="fa fa-instagram my-float"></i>
     </a>
     <!-- Whatsapp -->
-    <a href="https://api.whatsapp.com/send?phone=551332223906&text=Olá, Desejo Saber Mais Informaçoes Sobre a GuardaNovaSantos." class="whats" target="_blank">
+    <a href="https://github.com/GuilhermeBotingnon/Curriculo" class="whats" target="_blank">
       <i class="fa fa-whatsapp float-whats"></i>
     </a>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark gnsCor">
@@ -466,12 +466,12 @@
   </main>
   <footer class="text-center text-lg-start gnsCor">
     <div class="container d-flex justify-content-center py-3">
-      <a href="https://api.whatsapp.com/send?phone=551332223906&text=Olá, Desejo Saber Mais Informaçoes Sobre a GuardaNovaSantos." target="_blank">
+      <a href="https://github.com/GuilhermeBotingnon/Curriculo" target="_blank">
         <button type="button" class="btn btn-outline-dark btn-lg mx-2" style="background-color: #FFF;">
           <i class="fa fa-whatsapp"></i>
         </button>
       </a>
-      <a href="https://www.instagram.com/guardanova_santos/" target="_blank">
+      <a href="https://github.com/GuilhermeBotingnon/Curriculo" target="_blank">
         <button type="button" class="btn btn-outline-dark btn-lg mx-2" style="background-color: #FFF;">
           <i class="fa fa-instagram"></i>
         </button>
@@ -480,7 +480,7 @@
     <!-- Copyright -->
     <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       Feito Por :
-      <a class="text-white" href="https://mdbootstrap.com/">Guilherme Botingnon</a>
+      <a class="text-white" href="https://github.com/GuilhermeBotingnon/Curriculo">GuilhermeBotingnon</a>
     </div>
   </footer>
 </body>
