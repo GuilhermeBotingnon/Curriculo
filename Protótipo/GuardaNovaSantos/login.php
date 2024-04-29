@@ -53,6 +53,11 @@ if ($_POST) {
       font-weight: 500;
     }
   </style>
+  <script>
+    function senha() {
+      window.alert("login: gns@gns , senha: gns")
+    }
+  </script>
   <nav class="navbar fixed-top gnsCor">
     <div class="container">
       <a class="navbar-brand" href="index.php">
@@ -83,7 +88,7 @@ if ($_POST) {
               <?php endif; ?>
             </div>
             <div class="mb-3 d-flex justify-content-center">
-              <button type="submit" name="enviar" class="btn text-decoration-none mt-4 px-3 py-2 bg-white rounded-3 fs-3 fw-bold">Entrar</button>
+              <button type="submit" name="enviar" onclick="senha()" class="btn text-decoration-none mt-4 px-3 py-2 bg-white rounded-3 fs-3 fw-bold">Entrar</button>
             </div>
           </form>
         </div>

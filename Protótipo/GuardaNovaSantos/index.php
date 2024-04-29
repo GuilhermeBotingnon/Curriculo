@@ -320,60 +320,6 @@
         </div>
       </div>
     </section>
-    <!-- Parceiros -->
-    <section id="Parceiros" class="secao9 gnsCorB">
-
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="container d-flex justify-content-center align-items-center text-black fw-bold my-5"> Parceiros </h1>
-          </div>
-        </div>
-      </div>
-      <div class="container text-center mt-3 ">
-        <div class="row align-items-start">
-          <div class="col-md-4">
-            <img src="images/icons/sicredi.png" alt="Parceiro" class="img-fluid gnsImage">
-          </div>
-          <div class="col-md-4">
-            <img src="images/icons/sicredi.png" alt="Parceiro" class="img-fluid gnsImage parceiro">
-          </div>
-          <div class="col-md-4">
-            <img src="images/icons/sicredi.png" alt="Parceiro" class="img-fluid gnsImage parceiro">
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Seção de Vídeos -->
-    <section id="Videos" class="secao10 gnsCorA">
-
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="container d-flex justify-content-center align-items-center text-white fw-bold my-5"> Vídeos Sobre Cooperativismo </h1>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row justify-content-center mt-4">
-          <div class="col-md-4 text-center">
-            <a href="https://youtu.be/8ctymfoR9KY" target="_blank">
-              <img src="images/videos/SomosCoop.jpg" alt="Ícone de Vídeo Cooperativo" style="filter: drop-shadow(2px 2px 4px);" class="img-fluid rounded-3 video">
-            </a>
-          </div>
-          <div class="col-md-4 text-center">
-            <a href="https://youtu.be/qSKx_Jxxh4s" target="_blank">
-              <img src="images/videos/VemSerCoop.jpg" alt="Ícone do Segundo Vídeo Cooperativo" style="filter: drop-shadow(2px 2px 4px);" class="img-fluid rounded-3 video video2">
-            </a>
-          </div>
-          <div class="col-md-4 text-center">
-            <a href="https://youtu.be/ByjYbJMh4y4" target="_blank">
-              <img src="images/videos/Cooperativismo.jpg" alt="Ícone do Terceiro Vídeo Cooperativo " style="filter: drop-shadow(2px 2px 4px);" class="img-fluid rounded-3 video video2">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
     <!-- Feedbacks e coperados -->
     <section id="Feedbacks" class="secao11">
       <!-- Texto Heading -->
@@ -536,8 +482,8 @@
     </div>
     <!-- Copyright -->
     <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2023 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">Guarda Nova Santos</a>
+      Feito Por :
+      <a class="text-white" href="https://mdbootstrap.com/">Guilherme Botingnon</a>
     </div>
   </footer>
 </body>
