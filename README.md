@@ -61,6 +61,8 @@ Instituto Centro Paula Souza <strong> Etec de Praia Grande - Extensão </strong>
 
 ### Frameworks Front-end
 * Bootstrap
+* React
+* Node.js
 
 ### Linguagens de Programação
 * JavaScript.
