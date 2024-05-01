@@ -63,7 +63,7 @@ if ($_POST) {
   <main class="cor text-white fw-bold fs-2" style="font-family: Poppins;">
     <div class="container d-flex align-items-center justify-content-center vh-100">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 d-flex justify-content-center">
           <img src="favicon/Logo.svg" alt="Logo GNS" class="img-fluid logo">
         </div>
         <div class="col-md-6">
