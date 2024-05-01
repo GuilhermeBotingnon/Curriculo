@@ -1,6 +1,8 @@
-# Protótipos
+# Repositório dos Cursos
 
-<strong> Aqui é o principal repositório Dos Cursos que eu Realizei </strong>
+<strong> Olá Reader!!! Aqui é um diretório exclusivamente feito para cursos em que eu realizei. </strong>
+<br>
+<strong> Aqui será possível ver até o momento os cursos realizados e os diretorios de cada um deles :>  </strong>
 
 ## 🚀 Cursos Realizados (Até o Momento)
 
