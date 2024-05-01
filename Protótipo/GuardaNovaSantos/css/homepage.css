@@ -196,7 +196,7 @@ main {
 }
 
 /* Media */
-@media (min-width: 319px) and (max-width: 374px) {
+@media (max-width: 374px) and (min-width: 319px) {
   /* Social Buttons */
   .whats {
     position: fixed;
@@ -272,7 +272,7 @@ main {
     min-height: 860px;
   }
   .secao12 {
-    min-height: 1200px;
+    min-height: 1160px;
   }
   .secao13 {
     min-height: 200px;
@@ -385,7 +385,7 @@ main {
     min-height: 860px;
   }
   .secao12 {
-    min-height: 1200px;
+    min-height: 1160px;
   }
   .secao13 {
     min-height: 200px;
@@ -497,7 +497,7 @@ main {
     min-height: 860px;
   }
   .secao12 {
-    min-height: 1290px;
+    min-height: 1240px;
   }
   .secao13 {
     min-height: 200px;
@@ -609,7 +609,7 @@ main {
     min-height: 1080px;
   }
   .secao12 {
-    min-height: 1400px;
+    min-height: 1360px;
   }
   .secao13 {
     min-height: 200px;
@@ -679,7 +679,7 @@ main {
     min-height: 660px;
   }
   .secao12 {
-    min-height: 820px;
+    min-height: 780px;
   }
   .secao13 {
     min-height: 200px;

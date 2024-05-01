@@ -18,15 +18,14 @@
 </head>
 
 <body>
-
   <!-- Navbar -->
   <header id="header" class="header fixed-top" data-scrollto-offset="0">
     <!-- Instagram -->
-    <a href="https://github.com/GuilhermeBotingnon/Curriculo" class="float" target="_blank">
+    <a href="https://www.instagram.com/guardanova_santos/" class="float" target="_blank">
       <i class="fa fa-instagram my-float"></i>
     </a>
     <!-- Whatsapp -->
-    <a href="https://github.com/GuilhermeBotingnon/Curriculo" class="whats" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=551332223906&text=Olá, Desejo Saber Mais Informaçoes Sobre a GuardaNovaSantos." class="whats" target="_blank">
       <i class="fa fa-whatsapp float-whats"></i>
     </a>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark gnsCor">
@@ -62,6 +61,9 @@
               </li>
               <li class="nav-item mx-2  ">
                 <a class="nav-link gnsNav active" href="#Sobre" alt="Botão Sobre">Sobre</a>
+              </li>
+              <li class="nav-item mx-2  ">
+                <a class="nav-link gnsNav active" href="#Videos" alt="Botão Feedback">Vídeos</a>
               </li>
               <li class="nav-item mx-2  ">
                 <a class="nav-link gnsNav active" href="#Feedbacks" alt="Botão Feedback">Feedbacks</a>
@@ -258,7 +260,7 @@
       </div>
     </section>
     <!-- Missão Visão Valores -->
-    <section id=" class=" secao7 gnsCorB">
+    <section id="" class="secao7 gnsCorB">
 
       <div class="container text-center">
         <div class="row">
@@ -313,6 +315,60 @@
           <div class="col-md-4 my-3">
             <img src="/images/icons/50.svg" class="img-fluid" alt="Número 50" srcset="">
             <h2 class="my-4 py-3 fw-semibold text-white ">Empresas Parceiras</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Parceiros -->
+    <section id="Parceiros" class="secao9 gnsCorB">
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="container d-flex justify-content-center align-items-center text-black fw-bold my-5"> Parceiros </h1>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center mt-3 ">
+        <div class="row align-items-start">
+          <div class="col-md-4">
+            <img src="images/icons/sicredi.png" alt="Parceiro" class="img-fluid gnsImage">
+          </div>
+          <div class="col-md-4">
+            <img src="images/icons/sicredi.png" alt="Parceiro" class="img-fluid gnsImage parceiro">
+          </div>
+          <div class="col-md-4">
+            <img src="images/icons/sicredi.png" alt="Parceiro" class="img-fluid gnsImage parceiro">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Seção de Vídeos -->
+    <section id="Videos" class="secao10 gnsCorA">
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="container d-flex justify-content-center align-items-center text-white fw-bold my-5"> Vídeos Sobre Cooperativismo </h1>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-4 text-center">
+            <a href="https://youtu.be/8ctymfoR9KY" target="_blank">
+              <img src="images/videos/SomosCoop.jpg" alt="Ícone de Vídeo Cooperativo" style="filter: drop-shadow(2px 2px 4px);" class="img-fluid rounded-3 video">
+            </a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="https://youtu.be/qSKx_Jxxh4s" target="_blank">
+              <img src="images/videos/VemSerCoop.jpg" alt="Ícone do Segundo Vídeo Cooperativo" style="filter: drop-shadow(2px 2px 4px);" class="img-fluid rounded-3 video video2">
+            </a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="https://youtu.be/ByjYbJMh4y4" target="_blank">
+              <img src="images/videos/Cooperativismo.jpg" alt="Ícone do Terceiro Vídeo Cooperativo " style="filter: drop-shadow(2px 2px 4px);" class="img-fluid rounded-3 video video2">
+            </a>
           </div>
         </div>
       </div>
@@ -466,12 +522,12 @@
   </main>
   <footer class="text-center text-lg-start gnsCor">
     <div class="container d-flex justify-content-center py-3">
-      <a href="https://github.com/GuilhermeBotingnon/Curriculo" target="_blank">
+      <a href="https://api.whatsapp.com/send?phone=551332223906&text=Olá, Desejo Saber Mais Informaçoes Sobre a GuardaNovaSantos." target="_blank">
         <button type="button" class="btn btn-outline-dark btn-lg mx-2" style="background-color: #FFF;">
           <i class="fa fa-whatsapp"></i>
         </button>
       </a>
-      <a href="https://github.com/GuilhermeBotingnon/Curriculo" target="_blank">
+      <a href="https://www.instagram.com/guardanova_santos/" target="_blank">
         <button type="button" class="btn btn-outline-dark btn-lg mx-2" style="background-color: #FFF;">
           <i class="fa fa-instagram"></i>
         </button>
@@ -479,8 +535,8 @@
     </div>
     <!-- Copyright -->
     <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      Feito Por :
-      <a class="text-white" href="https://github.com/GuilhermeBotingnon/Curriculo">GuilhermeBotingnon</a>
+      © 2024 Copyright:
+      <a class="text-white" href="#Inicio">Guarda Nova Santos</a>
     </div>
   </footer>
 </body>
