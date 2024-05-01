@@ -32,7 +32,7 @@
       <div class="container">
         <!-- Logo -->
         <a class="navbar-brand fs-4" href="#">
-          <img src="/favicon/Guarda Nova.svg" alt="Logo Guarda Nova Santos">
+          <img src="/favicon/GuardaNova.svg" alt="Logo Guarda Nova Santos">
         </a>
         <!-- Toggle Btn -->
         <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
