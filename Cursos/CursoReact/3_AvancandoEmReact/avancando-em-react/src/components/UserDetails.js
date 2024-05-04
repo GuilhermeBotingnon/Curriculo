@@ -23,7 +23,7 @@ const UserDetails = () => {
                 </p>
               </div>
             ) : (
-              <div>
+              <div> 
                 <p>O {user.name} não pode tirar carteira de Habilitação</p>
               </div>
             )}
