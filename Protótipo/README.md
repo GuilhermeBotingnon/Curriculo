@@ -5,6 +5,7 @@
 ## 🚀 Projetos Acadêmicos Concluídos
 
 <strong> SecretWorld </strong> - Jogo simples ao estilo descubra a palavra, realizado ao decorrer do curso de React.
+
 <strong>🛠️ Construído com</strong>
 
 - [React](https://react.dev/) - O framework web utilizado.
