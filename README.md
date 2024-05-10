@@ -73,7 +73,8 @@ Instituto Centro Paula Souza <strong> Etec de Praia Grande - Extensão </strong>
 * MySQL.
 
 ## Projetos
-* [Protótipo GNS](Protótipo/GNS)
+* [Site GNS](Protótipo/GuardaNovaSantos)
+* [Secretworld](Protótipo/SecretWorld/secretworld)
 
 ## Redes Sociais
 *  [Linkedin](https://www.linkedin.com/in/guilherme-botingnon-a032a3278/)
