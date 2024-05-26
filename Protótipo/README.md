@@ -1,4 +1,4 @@
-# Protótipos
+# Protótipos & Trabalhos Realizados
 
 <strong> Aqui é o principal repositório de meus Trabalhos realizados. </strong>
 
@@ -11,9 +11,10 @@
 - [React](https://react.dev/) - O framework web utilizado.
 - [JavaScript ES6](https://www.w3schools.com/js/js_es6.asp) - Linguagem de programação utilizada.
 
-## 🚀 Projetos Concluídos
+## 🚀 Trabalhos Realizados
 
-<strong> GNS </strong> - Site realizado para um coperativa, realizada uma repaginação na pagina já existente.
+<strong> GuardaNovaSantos </strong> - Site realizado para um coperativa, realizada uma repaginação na pagina já existente. <br>
+<strong> <a href="https://guardanovadesantos.com.br/"> Site </a> </strong>
 
 <strong>🛠️ Construído com</strong>
 
