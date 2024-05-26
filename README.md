@@ -12,10 +12,11 @@ Olá eu me chamo Guilherme Botingnon e Atualmente sou um programador Fullstack J
 💻  [Linkedin](https://www.linkedin.com/in/guilherme-botingnon-a032a3278/)
 
 
-## Conhecimentos
+## Conhecimentos Técnicos
 
 ### Gerais
 * Git & GitHub
+* Figma
 * Lógica de Programação.
 * Inglês Nível <strong> <a href="https://cert.efset.org/VXtMSb"> (B2) </a> </strong>.
 
