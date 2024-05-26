@@ -1,11 +1,50 @@
-<h1> Guilherme Botingnon </h1>
-<strong> Buscando a oportunidade para ser Desenvolvedor Web  / FullStack. <br> </strong>
-<hr>
+## Guilherme Botingnon
+<strong> Desenvolvedor Web - FullStack </strong>
+
+## Sobre Mim
+Olá eu me chamo Guilherme Botingnon e Atualmente sou um programador Fullstack Junior, tenho experiência como Freelancer, realizando sites responsivos pensando no <strong> Mobile First </strong> , Além disso eu sou apaixonado na área de técnologia e sempre 
+<strong> Determinado a aprender e me adaptar a novas Tecnologias. </strong>
+
+### Informações Pessoais
 🏠 Praia Grande / SP <br>
 📱  <a href="https://api.whatsapp.com/send?phone=5513997571641">(13) 99757-1641</a> <br>
 ✉️  <a href="mailto:guilherme.botingnon@gmail.com">guilherme.botingnon@gmail.com</a> <br>
-Meu nome é Guilherme Botingnon, Estudo para me tornar Desenvolvedor Web,  apaixonado por PHP e HTML, com grande interesse em Javascript e Bootstrap. Tenho como hobbies Jogar, Ler e Desenvolver Protótipos de sites utilizando o Figma e os passar para WordPress.
-<strong> Determinado a aprender mais e mais </strong>
+💻  [Linkedin](https://www.linkedin.com/in/guilherme-botingnon-a032a3278/)
+
+
+## Conhecimentos
+
+### Gerais
+* Git & GitHub
+* Lógica de Programação.
+* Inglês Nível <strong> <a href="https://cert.efset.org/VXtMSb"> (B2) </a> </strong>.
+
+### Sistemas Operacionais
+* Windows
+  
+### Front-end
+* HTML.
+* JavaScript (ES6)
+* CSS (Mobile First).
+  
+### Back-end
+* PHP.
+* JavaScript (POO).
+
+### Frameworks Front-end
+* Bootstrap
+* React
+* Node.js
+
+### Frameworks Back-end
+* Node.js
+
+### Banco de Dados
+* MySQL.
+
+## Projetos
+* [Site GNS](Protótipo/GuardaNovaSantos)
+* [Secretworld](Protótipo/SecretWorld/secretworld)
 
 ## Formação
 Instituto Centro Paula Souza <strong> Etec de Praia Grande - Extensão </strong> - Técnico em Informática para Internet <br>
@@ -42,41 +81,5 @@ Instituto Centro Paula Souza <strong> Etec de Praia Grande - Extensão </strong>
 | Ética e Cidadania Organizacional                                            | 3º   |
 | Desenvolvimento do Trabalho de Conclusão de Curso (TCC) em Informática para Internet| 3º   |
 
-## Experência Profissional
-* Procurando Embarcar no Mercado de Trabalho.
-## Conhecimentos
-
-### Gerais
-* Lógica de Programação.
-* Inglês Nível <strong> (A2) </strong>.
-
-### Sistemas Operacionais
-* Windows
-  
-### Front-end
-* HTML.
-* CSS (Design Responsivo).
-  * SASS (Aprendendo)
-* JavaScript
-
-### Frameworks Front-end
-* Bootstrap
-* React
-* Node.js
-
-### Linguagens de Programação
-* JavaScript.
-* PHP.
-* C++.
-
-### Banco de Dados
-* MySQL.
-
-## Projetos
-* [Site GNS](Protótipo/GuardaNovaSantos)
-* [Secretworld](Protótipo/SecretWorld/secretworld)
-
-## Redes Sociais
-*  [Linkedin](https://www.linkedin.com/in/guilherme-botingnon-a032a3278/)
 
 <br><br>
