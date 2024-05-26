@@ -13,7 +13,7 @@
 
 ## 🚀 Trabalhos Realizados
 
-<strong> GuardaNovaSantos <a href="https://guardanovadesantos.com.br/"> ( Abrir ) </a> </strong> - Site realizado para um coperativa, realizada uma repaginação na pagina já existente. <br>
+<strong> GuardaNovaSantos <a href="https://guardanovadesantos.com.br/"> (Abrir) </a> </strong> - Site realizado para um coperativa, realizada uma repaginação na pagina já existente. <br>
 
 <strong>🛠️ Construído com</strong>
 
