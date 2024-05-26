@@ -10,6 +10,9 @@ Olá eu me chamo Guilherme Botingnon e Atualmente sou um programador Fullstack J
 📱  <a href="https://api.whatsapp.com/send?phone=5513997571641">(13) 99757-1641</a> <br>
 ✉️  <a href="mailto:guilherme.botingnon@gmail.com">guilherme.botingnon@gmail.com</a> <br>
 💻  [Linkedin](https://www.linkedin.com/in/guilherme-botingnon-a032a3278/)
+<br> <br>
+<strong> Conheça mais do meu trabalho. </strong>  <br>
+<a href="Protótipo"> 💼 Protótipos & Trabalhos </a>
 
 
 ## Conhecimentos Técnicos
@@ -42,10 +45,6 @@ Olá eu me chamo Guilherme Botingnon e Atualmente sou um programador Fullstack J
 
 ### Banco de Dados
 * MySQL.
-
-## Projetos
-* [Site GNS](Protótipo/GuardaNovaSantos)
-* [Secretworld](Protótipo/SecretWorld/secretworld)
 
 ## Formação
 Instituto Centro Paula Souza <strong> Etec de Praia Grande - Extensão </strong> - Técnico em Informática para Internet <br>
