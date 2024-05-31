@@ -19,7 +19,7 @@ Secret World Foi uma inspiração de um programa de televisão chamado Roda Roda
 - Caso o jogador acerte todas as letras e forme a palavra, será acrescentado uma quantia de pontos.
 - O jogador continua com a mesma quantia de tentativas. <br>
   ![Pontuação](https://github.com/GuilhermeBotingnon/Curriculo/blob/main/Prot%C3%B3tipo/SecretWorld/secretworld/secretworldImages/Points.png?raw=true)
-- Caso o jogador erre três vezes a letra ele perde o jogo
+- Caso o jogador erre três vezes a letra ele perde o jogo;
 - Será exibido a quantidade de pontos ganhos e uma opção de Jogar novamente.
 - Todos os pontos ganhos serão resetados quando iniciado o novo jogo. <br>
   ![Tela Final](https://github.com/GuilhermeBotingnon/Curriculo/blob/main/Prot%C3%B3tipo/SecretWorld/secretworld/secretworldImages/EndingScreen.png?raw=true)
