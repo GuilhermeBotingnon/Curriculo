@@ -4,12 +4,7 @@
 
 ## 🚀 Projetos Acadêmicos Concluídos
 
-<strong> SecretWorld </strong> - Jogo simples ao estilo descubra a palavra, realizado ao decorrer do curso de React.
-
-<strong>🛠️ Construído com</strong>
-
-- [React](https://react.dev/) - O framework web utilizado.
-- [JavaScript ES6](https://www.w3schools.com/js/js_es6.asp) - Linguagem de programação utilizada.
+<strong> <a href="https://github.com/GuilhermeBotingnon/Curriculo/tree/main/Prot%C3%B3tipo/SecretWorld"> SecretWorld </a> </strong> - Jogo simples ao estilo descubra a palavra, realizado ao decorrer do curso de React.
 
 ## 🚀 Trabalhos Realizados
 
