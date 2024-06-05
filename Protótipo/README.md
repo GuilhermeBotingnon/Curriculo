@@ -1,15 +1,18 @@
 # Protótipos & Trabalhos Realizados
 
-<strong> Aqui é o principal repositório de meus Trabalhos realizados. </strong>
+<strong> Aqui é o principal repositório de meus Protótipos e Trabalhos realizados. </strong>
 
 ## 🚀 Projetos Acadêmicos Concluídos
 
-<strong> <a href="https://github.com/GuilhermeBotingnon/Curriculo/tree/main/Prot%C3%B3tipo/SecretWorld"> SecretWorld </a> </strong> - Jogo simples ao estilo descubra a palavra, realizado ao decorrer do curso de React.
+<strong> <a href="https://github.com/GuilhermeBotingnon/Curriculo/tree/main/Prot%C3%B3tipo/SecretWorld"> SecretWorld </a> </strong> - Jogo simples ao estilo descubra a palavra, Utilizando React.
+<br>
+<strong> <a href="https://github.com/GuilhermeBotingnon/Curriculo/tree/main/Prot%C3%B3tipo/jokenpo"> Jokenpo </a> </strong> - Jogo simples de jokenpo contra um bot, utilizando Vue.js.
 
 ## 🚀 Trabalhos Realizados
 
-<strong> GuardaNovaSantos <a href="https://guardanovadesantos.com.br/"> (Abrir) </a> </strong> - Site realizado para um coperativa, realizada uma repaginação na pagina já existente.<br>
-Adaptei a pagina para uma landing page e coloquei tanto um sistema de CRUD para funcionarios, além de um sistema de feedback e um formulário de contato para enviar o email diretamente para empresa <br>
+<strong> GuardaNovaSantos <a href="https://guardanovadesantos.com.br/"> (Abrir) </a> </strong> <br> Site realizado para um coperativa, realizada uma repaginação na pagina já existente <br>
+adaptei a pagina para uma landing page e coloquei tanto um sistema de CRUD para funcionarios <br>
+além de um sistema de feedback e um formulário de contato para enviar o email diretamente para empresa <br>
 
 <strong>🛠️ Construído com</strong>
 

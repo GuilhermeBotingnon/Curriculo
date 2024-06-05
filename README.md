@@ -2,7 +2,7 @@
 <strong> Desenvolvedor Web - FullStack </strong>
 
 ## Sobre Mim
-Olá eu me chamo Guilherme Botingnon e Atualmente sou um programador Fullstack Junior, tenho experiência como Freelancer, realizando sites responsivos pensando no <strong> Mobile First </strong> , Além disso eu sou apaixonado na área de técnologia e sempre 
+Olá eu me chamo Guilherme Botingnon e atualmente sou um programador Fullstack Junior, tenho experiência como Freelancer, realizando sites responsivos pensando no <strong> Mobile First </strong> , Além disso eu sou apaixonado na área de técnologia e sempre 
 <strong> Determinado a aprender e me adaptar a novas Tecnologias. </strong>
 
 ### Informações Pessoais
@@ -39,6 +39,7 @@ Olá eu me chamo Guilherme Botingnon e Atualmente sou um programador Fullstack J
 * Bootstrap
 * React
 * Node.js
+* Vue.js
 
 ### Frameworks Back-end
 * Node.js
