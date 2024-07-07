@@ -4,9 +4,11 @@
 
 ## 🚀 Projetos Acadêmicos Concluídos
 
-<strong> <a href="https://github.com/GuilhermeBotingnon/Curriculo/tree/main/Prot%C3%B3tipo/SecretWorld"> SecretWorld </a> </strong> - Jogo simples ao estilo descubra a palavra, Utilizando React.
-<br>
+<strong> <a href="https://github.com/GuilhermeBotingnon/Curriculo/tree/main/Prot%C3%B3tipo/SecretWorld"> SecretWorld </a> </strong> - Jogo simples ao estilo descubra a palavra, Utilizando ReactJS.
+<br> <br>
 <strong> <a href="https://github.com/GuilhermeBotingnon/Curriculo/tree/main/Prot%C3%B3tipo/jokenpo"> Jokenpo </a> </strong>  - Jogo simples de jokenpo contra um bot, utilizando Vue.js.
+<br> <br>
+<strong> <a href="https://github.com/GuilhermeBotingnon/TesteDev"> Dev. </a> </strong>  - Website criado para testar meus conhecimentos em ReactJS.
 
 ## 🚀 Trabalhos Realizados
 
