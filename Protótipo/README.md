@@ -6,9 +6,14 @@
 
 <strong> <a href="https://github.com/GuilhermeBotingnon/Curriculo/tree/main/Prot%C3%B3tipo/SecretWorld"> SecretWorld </a> </strong> - Jogo simples ao estilo descubra a palavra, Utilizando ReactJS.
 <br> <br>
-<strong> <a href="https://github.com/GuilhermeBotingnon/Curriculo/tree/main/Prot%C3%B3tipo/jokenpo"> Jokenpo </a> </strong>  - Jogo simples de jokenpo contra um bot, utilizando Vue.js.
+<strong> <a href="https://github.com/GuilhermeBotingnon/Curriculo/tree/main/Prot%C3%B3tipo/jokenpo"> Jokenpo </a> </strong> - Jogo simples de jokenpo contra um bot, utilizando Vue.js.
 <br> <br>
-<strong> <a href="https://github.com/GuilhermeBotingnon/TesteDev"> Dev. </a> </strong>  - Website criado para testar meus conhecimentos em ReactJS.
+<strong> <a href="https://github.com/GuilhermeBotingnon/Curriculo/tree/main/Prot%C3%B3tipo/DevJobFinder"> DevJobFinder </a> </strong> - Site para procurar emprego & cadastrar empregos, utilizando node.js express Sequelize
+<br> <br>
+
+## 🚀 Projetos Próprios Concluídos
+
+<strong> <a href="https://github.com/GuilhermeBotingnon/TesteDev"> Dev. </a> </strong> - Website criado para testar meus conhecimentos em ReactJS.
 
 ## 🚀 Trabalhos Realizados
 
@@ -18,7 +23,7 @@ além de um sistema de feedback e um formulário de contato para enviar o email 
 
 <strong>🛠️ Construído com</strong>
 
-- [Figma](https://www.mysql.com/) - Protótipagem de alta fidelidade Realizada pelo Figma.
+- [Figma](https://www.figma.com/) - Protótipagem de alta fidelidade Realizada pelo Figma.
 - [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) - O framework web utilizado.
 - [PHP](https://www.php.net/manual/en/intro.spl.php) - Linguaguem utilizada para o BackEnd.
 - [MySQL](https://www.mysql.com/) - Banco de Dados Utilizado.
