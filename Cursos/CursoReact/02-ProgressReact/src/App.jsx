@@ -30,6 +30,7 @@ function App() {
 
   const handleMessage = (msg) => {
     setMessage(msg);
+    document.getElementById("prevMessage").innerHTML = message;
   };
 
   return (

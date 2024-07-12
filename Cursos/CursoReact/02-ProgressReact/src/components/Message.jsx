@@ -2,7 +2,7 @@ const Message = ({ msg }) => {
   Message.propTypes;
   return (
     <div>
-      <p>The message is {msg}</p>
+      <p>The actual Message is: {msg}</p>
     </div>
   );
 };

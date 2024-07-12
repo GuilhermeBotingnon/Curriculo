@@ -1,11 +1,22 @@
 const ChangeMessageState = ({ handleMessage }) => {
   ChangeMessageState.propTypes;
-  const messages = ["hi", "Hello", "Hi, How are you?"];
+  const textMessage = () => {
+    let userMessage = document.getElementById("text").value;
+    event.preventDefault();
+    handleMessage(userMessage);
+    document.getElementById("text").value = "";
+  };
   return (
     <div>
-      <button onClick={() => handleMessage(messages[0])}>1</button>
-      <button onClick={() => handleMessage(messages[1])}>2</button>
-      <button onClick={() => handleMessage(messages[2])}>3</button>
+      <p>
+        The previous Message was: <span id="prevMessage"></span>
+      </p>
+      <form>
+        <input type="text" placeholder="Insert a Message" id="text" />
+        <br />
+        <button onClick={textMessage}>Insert</button>
+        <br />
+      </form>
     </div>
   );
 };
