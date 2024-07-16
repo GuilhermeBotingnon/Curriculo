@@ -48,6 +48,9 @@ Olá eu me chamo Guilherme Botingnon e atualmente sou um programador Fullstack J
 * MySQL.
 
 ## Formação
+Instituto Centro Paula Soua <strong> Fatec de Praia Grande </strong> - Desenvolvimento de Software Multiplataforma <br>
+6 Semestres - Finalização prevista para 2027
+
 Instituto Centro Paula Souza <strong> Etec de Praia Grande - Extensão </strong> - Técnico em Informática para Internet <br>
 3 Semestres - Finalização em Dezembro de 2023
 
