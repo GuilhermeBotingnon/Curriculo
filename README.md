@@ -88,7 +88,7 @@ Instituto Centro Paula Souza <strong> Etec de Praia Grande - Extensão </strong>
 | Tecnologias e Linguagens para Banco de Dados II                             | 3º   |
 | Marketing para Web                                                          | 3º   |
 | Ética e Cidadania Organizacional                                            | 3º   |
-| --------------------------------------------------------------------------- |:----:|
+
 
 
 ### Desenvolvimento de Software MultiPlataforma
@@ -136,7 +136,7 @@ Instituto Centro Paula Souza <strong> Etec de Praia Grande - Extensão </strong>
 | Processamento de Linguagem Natural                                          | 6º  |
 | Laboratório de Desenvolvimento Multiplataforma                              | 6º  |
 | Mineração de Dados                                                          | 6º  |
-| --------------------------------------------------------------------------- |:---:|
+
 
 
 <br><br>
