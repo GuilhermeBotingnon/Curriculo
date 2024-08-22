@@ -1,8 +1,8 @@
 ## Guilherme Botingnon
-<strong> Desenvolvedor Web - FullStack </strong>
+<strong>FontEnd Developer - Desenvolvedor FrontEnd </strong>
 
 ## Sobre Mim
-Olá eu me chamo Guilherme Botingnon e atualmente sou um programador Fullstack Junior, tenho experiência como Freelancer, realizando sites responsivos pensando no <strong> Mobile First </strong> , Além disso eu sou apaixonado na área de técnologia e sempre 
+Olá eu me chamo Guilherme Botingnon e atualmente sou um programador Junior, tenho experiência como Freelancer, realizando sites responsivos pensando no <strong> Mobile First </strong> , Além disso eu sou apaixonado na área de técnologia e sempre 
 <strong> Determinado a aprender e me adaptar a novas Tecnologias. </strong>
 
 ### Informações Pessoais
@@ -25,6 +25,7 @@ Olá eu me chamo Guilherme Botingnon e atualmente sou um programador Fullstack J
 
 ### Sistemas Operacionais
 * Windows
+* Linux
   
 ### Front-end
 * HTML.
@@ -39,7 +40,6 @@ Olá eu me chamo Guilherme Botingnon e atualmente sou um programador Fullstack J
 * Bootstrap
 * React
 * Node.js
-* Vue.js
 
 ### Frameworks Back-end
 * Node.js
@@ -83,7 +83,55 @@ Instituto Centro Paula Souza <strong> Etec de Praia Grande - Extensão </strong>
 | Tecnologias e Linguagens para Banco de Dados II                             | 3º   |
 | Marketing para Web                                                          | 3º   |
 | Ética e Cidadania Organizacional                                            | 3º   |
-| Desenvolvimento do Trabalho de Conclusão de Curso (TCC) em Informática para Internet| 3º   |
+| --------------------------------------------------------------------------- |:----:|
+
+
+### Desenvolvimento de Software MultiPlataforma
+
+| Nome                                                                        | Semestre |
+| --------------------------------------------------------------------------- |:---:|
+| Algoritmos e Lógica de Programação                                          | 1º  |
+| Modelagem de Banco de Dados                                                 | 1º  |
+| Engenharia de Software I                                                    | 1º  |
+| Sistemas Operacionais e Redes de Computadores                               | 1º  |
+| Desenvolvimento Web I                                                       | 1º  |
+| Design Digital                                                              | 1º  |
+| Banco de Dados – Relacional                                                 | 2º  |
+| Estrutura de Dados                                                          | 2º  |
+| Engenharia de Software II                                                   | 2º  |
+| Técnicas de Programação I                                                   | 2º  |
+| Desenvolvimento Web II                                                      | 2º  |
+| Matemática para Computação                                                  | 2º  |
+| Gestão Ágil de Projetos de Software                                         | 3º  |
+| Banco de Dados - Não relacional                                             | 3º  |
+| Interação Humano Computador                                                 | 3º  |
+| Técnicas de Programação II                                                  | 3º  |
+| Inglês I                                                                    | 3º  |
+| Desenvolvimento Web III                                                     | 3º  |
+| Álgebra Linear                                                              | 3º  |
+| Internet das Coisas e Aplicações                                            | 4º  |
+| Experiência do Usuário                                                      | 4º  |
+| Programação para Dispositivos Móveis I                                      | 4º  |
+| Inglês II                                                                   | 4º  |
+| Integração e Entrega Contínua                                               | 4º  |
+| Laboratório de Desenvolvimento Web                                          | 4º  |
+| Estatística Aplicada                                                        | 4º  |
+| Programação para Dispositivos Móveis II                                     | 5º  |
+| inglês III                                                                  | 5º  |
+| Segurança no Desenvolvimento de Aplicações                                  | 5º  |
+| Computação em Nuvem I                                                       | 5º  |
+| Laboratório de Desenvolvimento para Dispositivos Móveis                     | 5º  |
+| Aprendizagem de Máquina                                                     | 5º  |
+| Fundamentos da Redação Técnica                                              | 5º  |
+| Ética Profissional e Patente                                                | 6º  |
+| Estágio Supervisionado em Desenvolvimento de Software Multiplataforma       | 6º  |
+| Inglês IV                                                                   | 6º  |
+| Qualidade e Testes de Software                                              | 6º  |
+| Computação em Nuvem II                                                      | 6º  |
+| Processamento de Linguagem Natural                                          | 6º  |
+| Laboratório de Desenvolvimento Multiplataforma                              | 6º  |
+| Mineração de Dados                                                          | 6º  |
+| --------------------------------------------------------------------------- |:---:|
 
 
 <br><br>
