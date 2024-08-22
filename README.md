@@ -1,9 +1,14 @@
 ## Guilherme Botingnon
-<strong>FontEnd Developer - Desenvolvedor FrontEnd </strong>
+<strong> FrontEnd Developer - Desenvolvedor FrontEnd </strong>
 
 ## Sobre Mim
-Olá eu me chamo Guilherme Botingnon e atualmente sou um programador Junior, tenho experiência como Freelancer, realizando sites responsivos pensando no <strong> Mobile First </strong> , Além disso eu sou apaixonado na área de técnologia e sempre 
-<strong> Determinado a aprender e me adaptar a novas Tecnologias. </strong>
+-Português 🇧🇷
+
+Prazer me chamo Guilherme Botingnon, Sou um Desenvolvedor Front end Júnior, Estou cursando atualmente na FATEC da Praia Grande o curso Superior de Desenvolvimento de Software Multi Plataforma, minhas tecnologias são, ReactJs, JavaScript ES6 ( DOM ), Node.js
+
+-English 🇺🇸
+
+Nice to meet you, my name is Guilherme Botingnon, I am a Junior Front end developer, I am currently Graduating on Multi-Platform Software Development at FATEC Praia Grande, my technologies are ReactJs, JavaScript ES6 (DOM), Node.js
 
 ### Informações Pessoais
 🏠 Praia Grande / SP <br>
