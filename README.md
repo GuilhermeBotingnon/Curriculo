@@ -4,11 +4,11 @@
 ## Sobre Mim
 -Português 🇧🇷
 
-Prazer me chamo Guilherme Botingnon, Sou um Desenvolvedor Front end Júnior, Estou cursando atualmente na FATEC da Praia Grande o curso Superior de Desenvolvimento de Software Multi Plataforma, minhas tecnologias são, ReactJs, JavaScript ES6 ( DOM ), Node.js
+Prazer me chamo Guilherme Botingnon, Sou um Desenvolvedor Fullstack Júnior, minhas tecnologias são, ReactJs, JavaScript ES6 ( DOM ), Node.js
 
 -English 🇺🇸
 
-Nice to meet you, my name is Guilherme Botingnon, I am a Junior Front end developer, I am currently Graduating on Multi-Platform Software Development at FATEC Praia Grande, my technologies are ReactJs, JavaScript ES6 (DOM), Node.js
+Nice to meet you, my name is Guilherme Botingnon, I am a Junior FullStack Developer, my technologies are ReactJs, JavaScript ES6 (DOM), Node.js
 
 ### Informações Pessoais
 🏠 Praia Grande / SP <br>
@@ -53,8 +53,6 @@ Nice to meet you, my name is Guilherme Botingnon, I am a Junior Front end develo
 * MySQL.
 
 ## Formação
-Instituto Centro Paula Soua <strong> Fatec de Praia Grande </strong> - Desenvolvimento de Software Multiplataforma <br>
-6 Semestres - Finalização prevista para 2027
 
 Instituto Centro Paula Souza <strong> Etec de Praia Grande - Extensão </strong> - Técnico em Informática para Internet <br>
 3 Semestres - Finalização em Dezembro de 2023
@@ -88,55 +86,5 @@ Instituto Centro Paula Souza <strong> Etec de Praia Grande - Extensão </strong>
 | Tecnologias e Linguagens para Banco de Dados II                             | 3º   |
 | Marketing para Web                                                          | 3º   |
 | Ética e Cidadania Organizacional                                            | 3º   |
-
-
-
-### Desenvolvimento de Software MultiPlataforma
-
-| Nome                                                                        | Semestre |
-| --------------------------------------------------------------------------- |:---:|
-| Algoritmos e Lógica de Programação                                          | 1º  |
-| Modelagem de Banco de Dados                                                 | 1º  |
-| Engenharia de Software I                                                    | 1º  |
-| Sistemas Operacionais e Redes de Computadores                               | 1º  |
-| Desenvolvimento Web I                                                       | 1º  |
-| Design Digital                                                              | 1º  |
-| Banco de Dados – Relacional                                                 | 2º  |
-| Estrutura de Dados                                                          | 2º  |
-| Engenharia de Software II                                                   | 2º  |
-| Técnicas de Programação I                                                   | 2º  |
-| Desenvolvimento Web II                                                      | 2º  |
-| Matemática para Computação                                                  | 2º  |
-| Gestão Ágil de Projetos de Software                                         | 3º  |
-| Banco de Dados - Não relacional                                             | 3º  |
-| Interação Humano Computador                                                 | 3º  |
-| Técnicas de Programação II                                                  | 3º  |
-| Inglês I                                                                    | 3º  |
-| Desenvolvimento Web III                                                     | 3º  |
-| Álgebra Linear                                                              | 3º  |
-| Internet das Coisas e Aplicações                                            | 4º  |
-| Experiência do Usuário                                                      | 4º  |
-| Programação para Dispositivos Móveis I                                      | 4º  |
-| Inglês II                                                                   | 4º  |
-| Integração e Entrega Contínua                                               | 4º  |
-| Laboratório de Desenvolvimento Web                                          | 4º  |
-| Estatística Aplicada                                                        | 4º  |
-| Programação para Dispositivos Móveis II                                     | 5º  |
-| inglês III                                                                  | 5º  |
-| Segurança no Desenvolvimento de Aplicações                                  | 5º  |
-| Computação em Nuvem I                                                       | 5º  |
-| Laboratório de Desenvolvimento para Dispositivos Móveis                     | 5º  |
-| Aprendizagem de Máquina                                                     | 5º  |
-| Fundamentos da Redação Técnica                                              | 5º  |
-| Ética Profissional e Patente                                                | 6º  |
-| Estágio Supervisionado em Desenvolvimento de Software Multiplataforma       | 6º  |
-| Inglês IV                                                                   | 6º  |
-| Qualidade e Testes de Software                                              | 6º  |
-| Computação em Nuvem II                                                      | 6º  |
-| Processamento de Linguagem Natural                                          | 6º  |
-| Laboratório de Desenvolvimento Multiplataforma                              | 6º  |
-| Mineração de Dados                                                          | 6º  |
-
-
 
 <br><br>
