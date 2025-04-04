@@ -1,14 +1,14 @@
 ## Guilherme Botingnon
-<strong> FrontEnd Developer - Desenvolvedor FrontEnd </strong>
+<strong> Desenvolvedor FullStack - FullStack Developer </strong>
 
 ## Sobre Mim
 -Português 🇧🇷
 
-Prazer me chamo Guilherme Botingnon, Sou um Desenvolvedor Fullstack Júnior, minhas tecnologias são, ReactJs, JavaScript ES6 ( DOM ), Node.js
+Prazer me chamo Guilherme Botingnon, Sou um Desenvolvedor Fullstack Júnior, minhas tecnologias são, ReactJs, JavaScript ES6 ( DOM ) & Jquery, PHP, (Node.js & Express < Aprendendo)
 
 -English 🇺🇸
 
-Nice to meet you, my name is Guilherme Botingnon, I am a Junior FullStack Developer, my technologies are ReactJs, JavaScript ES6 (DOM), Node.js
+Nice to meet you, my name is Guilherme Botingnon, I am a Junior FullStack Developer, my technologies are ReactJs, JavaScript ES6 (DOM) & Jquery, PHP, (Node.js & Express < Learning)
 
 ### Informações Pessoais
 🏠 Praia Grande / SP <br>
@@ -19,8 +19,7 @@ Nice to meet you, my name is Guilherme Botingnon, I am a Junior FullStack Develo
 <strong> Conheça mais do meu trabalho. </strong>  <br>
 <a href="Protótipo"> 💼 Protótipos & Trabalhos </a>
 
-
-## Conhecimentos Técnicos
+# Conhecimentos Técnicos
 
 ### Gerais
 * Git & GitHub
@@ -52,12 +51,13 @@ Nice to meet you, my name is Guilherme Botingnon, I am a Junior FullStack Develo
 ### Banco de Dados
 * MySQL.
 
-## Formação
+
+# Formação
 
 Instituto Centro Paula Souza <strong> Etec de Praia Grande - Extensão </strong> - Técnico em Informática para Internet <br>
 3 Semestres - Finalização em Dezembro de 2023
 
-### Técnico em Informática para Internet
+## Técnico em Informática para Internet
 
 | Nome                                                                        | Módulo |
 | --------------------------------------------------------------------------- |:---:|
