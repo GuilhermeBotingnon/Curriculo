@@ -13,7 +13,7 @@
 
 ## 🚀 Projetos Próprios em Andamento!
 
-<strong> <a href="https://github.com/GuilhermeBotingnon/botingnonMarket/tree/develop"> Botingnon E-Commece </a> </strong> - E-commerce criado por mim, utilizando MongoDb, React js, Express
+<strong> <a href="https://github.com/GuilhermeBotingnon/botingnonMarket/tree/develop"> Botingnon E-Commece </a> </strong> - E-commerce criado por mim, utilizando MongoDb, React js & Figma para criação do design e protótipagem.
 <br> <br>
 
 ## 🚀 Projetos Próprios Concluídos
