@@ -11,8 +11,12 @@
 <strong> <a href="https://github.com/GuilhermeBotingnon/Curriculo/tree/main/Prot%C3%B3tipo/DevJobFinder"> DevJobFinder </a> </strong> - Site para procurar emprego & cadastrar empregos, utilizando node.js express Sequelize
 <br> <br>
 
-## 🚀 Projetos Próprios Concluídos
+## 🚀 Projetos Próprios em Andamento!
 
+<strong> <a href="https://github.com/GuilhermeBotingnon/botingnonMarket/tree/develop"> Botingnon E-Commece </a> </strong> - E-commerce criado por mim, utilizando MongoDb, React js, Express
+<br> <br>
+
+## 🚀 Projetos Próprios Concluídos
 <strong> <a href="https://github.com/GuilhermeBotingnon/TesteDev"> Dev. </a> </strong> - Website criado para testar meus conhecimentos em ReactJS.
 
 ## 🚀 Trabalhos Realizados
