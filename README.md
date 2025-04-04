@@ -1,6 +1,7 @@
 ## Guilherme Botingnon
 <strong> Desenvolvedor FullStack - FullStack Developer </strong>
 <strong>
+<br>
 -Português 🇧🇷
 
 Prazer me chamo Guilherme Botingnon, Sou um Desenvolvedor Fullstack Júnior, minhas tecnologias são, ReactJs, JavaScript ES6 ( DOM ) & Jquery, PHP, (Node.js & Express < Aprendendo)
