@@ -62,7 +62,6 @@ Nice to meet you, my name is Guilherme Botingnon, I am a Junior FullStack Develo
 - Node.js
 
 ### Banco de Dados
-
 - MySQL.
 - MongoDb
 
