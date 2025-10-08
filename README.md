@@ -55,6 +55,7 @@ Nice to meet you, my name is Guilherme Botingnon, I am a Junior FullStack Develo
 - Bootstrap
 - React js
 - React
+- TailWindCss
 - Node.js
 
 ### Frameworks Back-end
@@ -62,6 +63,7 @@ Nice to meet you, my name is Guilherme Botingnon, I am a Junior FullStack Develo
 - Node.js
 
 ### Banco de Dados
+
 - MySQL.
 - MongoDb
 
