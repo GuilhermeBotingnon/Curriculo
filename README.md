@@ -56,6 +56,7 @@ Nice to meet you, my name is Guilherme Botingnon, I am a Junior FullStack Develo
 - React js
 - React
 - TailWindCss
+- Next.js
 - Node.js
 
 ### Frameworks Back-end
